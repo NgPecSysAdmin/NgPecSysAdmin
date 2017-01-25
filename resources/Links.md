@@ -12,9 +12,14 @@ https://atc.us.army.mil/iastar/docs/ce_certs.xlsx
 https://github.com/oregon-national-guard/powershell/  
 http://duel.menu/orngpowershell  
   
+## PowerShell  
+https://powershell.org/category/podcast/  
+https://github.com/michaelburns/LaunchPad  
+https://github.com/PowerShell/PowerShell  
+  
 ## rundll32 tricks  
-http://www.robvanderwoude.com/2kprintcontrol.php  
 http://www.thewindowsclub.com/rundll32-shortcut-commands-windows  
+http://www.robvanderwoude.com/2kprintcontrol.php    
   
 ## OS Deployment  
 https://technet.microsoft.com/en-us/library/dn781292.aspx  
@@ -29,7 +34,10 @@ http://www.deploymentninja.com/home/automated-windows-deployment-on-a-budget
 ## Gotchas  
 https://support.microsoft.com/en-us/help/327825/problems-with-kerberos-authentication-when-a-user-belongs-to-many-groups  
   
-## PowerShell  
+## DNS  
+http://www.root-servers.org/  
+http://www.ask-mrdns.com/  
   
-### LaunchPad PowerShell Web Portal  
-https://github.com/michaelburns/LaunchPad  
+## Internet Mapping and Visualization  
+http://internet-map.net/  
+http://www.caida.org/publications/posters/png/id-consumption_whois-map-20071001.png  
