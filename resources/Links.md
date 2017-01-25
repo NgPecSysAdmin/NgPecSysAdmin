@@ -1,5 +1,3 @@
-# Link Dump  
-  
 ## General  
 http://duel.menu/ngpecsysadmin  
 https://etherpad.wikimedia.org/p/NgPecSysAdmin  
