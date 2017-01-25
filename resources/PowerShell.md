@@ -5,5 +5,3 @@ https://www.youtube.com/playlist?list=PL6D474E721138865A
   
 ## Making sure the AD cmdlets are installed  
 `Add-WindowsFeature -Name RSAT-AD-PowerShell`  
-  
-## 
