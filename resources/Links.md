@@ -28,3 +28,8 @@ http://www.deploymentninja.com/home/automated-windows-deployment-on-a-budget
   
 ## Gotchas  
 https://support.microsoft.com/en-us/help/327825/problems-with-kerberos-authentication-when-a-user-belongs-to-many-groups  
+  
+## PowerShell  
+  
+### LaunchPad PowerShell Web Portal  
+https://github.com/michaelburns/LaunchPad  
