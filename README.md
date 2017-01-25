@@ -7,3 +7,8 @@
 [Slack](https://ngpecsysadmin.slack.com)  
 [GitHub](https://github.com/NgPecSysAdmin)  
 [EtherPad](https://etherpad.wikimedia.org/p/NgPecSysAdmin)  
+## Ethos  
+[https://playbook.cio.gov](https://playbook.cio.gov)  
+[http://agilemanifesto.org/principles.html](http://agilemanifesto.org/principles.html)  
+[https://www.usc.edu/~douglast/202/lecture23/manifesto.html](https://www.usc.edu/~douglast/202/lecture23/manifesto.html)  
+[http://www.catb.org/hacker-emblem/](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
