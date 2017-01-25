@@ -14,4 +14,17 @@ http://duel.menu/orngpowershell
   
 ## rundll32 tricks  
 http://www.robvanderwoude.com/2kprintcontrol.php  
-http://www.thewindowsclub.com/rundll32-shortcut-commands-windows   
+http://www.thewindowsclub.com/rundll32-shortcut-commands-windows  
+  
+## OS Deployment  
+https://technet.microsoft.com/en-us/library/dn781292.aspx  
+http://renshollanders.nl/2013/02/mdt-2012-settings-for-fully-automated-lti-deployment-part-ii-customsettings-ini/  
+https://scriptimus.wordpress.com/2011/06/23/mdt-2010-sample-customsettings-ini-for-fully-automated-deployments/  
+https://mdtguy.wordpress.com/2013/07/12/mdt-customsettings-ini-tips-tricks/  
+https://deploymentbunny.com/2012/04/21/back-to-basic-customsettings-ini-explained/  
+https://thesystemsmonkey.wordpress.com/2016/02/24/configmgr-current-branchwindows-pe-peer-caching/  
+http://systemscenter.ru/  
+http://www.deploymentninja.com/home/automated-windows-deployment-on-a-budget  
+  
+## Gotchas  
+https://support.microsoft.com/en-us/help/327825/problems-with-kerberos-authentication-when-a-user-belongs-to-many-groups  
