@@ -1,6 +1,8 @@
 # Useful PowerShell Code Snippets  
 ## Making sure the AD cmdlets are installed  
-`Add-WindowsFeature -Name RSAT-AD-PowerShell`  
+```
+Add-WindowsFeature -Name RSAT-AD-PowerShell
+```
 ## Enable RDP Remotely via Remote Registry  
 ```
 $computerName = $env:COMPUTERNAME
