@@ -24,3 +24,13 @@ $RemoteRegKeyString = '\\' + $ComputerName + $RegKey
 
 Start-Process -FilePath $ExePath -ArgumentList $InstallArgs -NoNewWindow -Wait | Out-Null
 ```
+## DnsClientLoggin  
+Enables DNS client logging.  
+Sets the max log size to 128 MB.  
+```
+$logName = 'Microsoft-Windows-DNS-Client/Operational'
+$log = New-Object System.Diagnostics.Eventing.Reader.EventLogConfiguration $logName
+$log.IsEnabled=$true
+$log.MaximumSizeInBytes=131072000
+$log.SaveChanges()
+```
