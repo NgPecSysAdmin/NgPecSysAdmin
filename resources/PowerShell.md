@@ -3,7 +3,12 @@
 ```
 Add-WindowsFeature -Name RSAT-AD-PowerShell
 ```
-## Enable RDP Remotely via Remote Registry  
+## Force DotNet to Use TLS 1.2  
+```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+```
+## Enable RDP  
+Via Remote Registry  
 ```
 $computerName = $env:COMPUTERNAME
 
@@ -23,6 +28,13 @@ $RemoteRegKeyString = '\\' + $ComputerName + $RegKey
 )
 
 Start-Process -FilePath $ExePath -ArgumentList $InstallArgs -NoNewWindow -Wait | Out-Null
+```
+Via Set-ItemProperty  
+```
+Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server' `
+				 -Name fDenyTSConnections `
+				 -Value 0 `
+				 -Force
 ```
 ## DnsClientLogging  
 Enables DNS client logging.  
