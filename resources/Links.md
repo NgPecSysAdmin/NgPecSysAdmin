@@ -15,6 +15,8 @@ http://duel.menu/orngpowershell
 https://powershell.org/category/podcast/  
 https://github.com/michaelburns/LaunchPad  
 https://github.com/PowerShell/PowerShell  
+http://pastebin.com/u/powershell  
+
 ## rundll32 tricks  
 http://www.thewindowsclub.com/rundll32-shortcut-commands-windows  
 http://www.robvanderwoude.com/2kprintcontrol.php    
@@ -37,3 +39,5 @@ http://internet-map.net/
 http://www.caida.org/publications/posters/png/id-consumption_whois-map-20071001.png  
 ## Automation and DevOps  
 https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1  
+## Federal Employee  
+https://www.chcoc.gov/transmittals  
