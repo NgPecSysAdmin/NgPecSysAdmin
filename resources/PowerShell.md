@@ -46,3 +46,13 @@ $log.IsEnabled=$true
 $log.MaximumSizeInBytes=131072000
 $log.SaveChanges()
 ```
+## Download Google Chrome  
+```
+Invoke-WebRequest `
+	-Uri 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi' `
+	-OutFile '.\googlechromestandaloneenterprise64.msi'
+```
+## Scrape Links From a Web Page  
+```
+((Invoke-WebRequest -Uri "http://powershell.org/wp/").Links).href
+```

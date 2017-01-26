@@ -1,4 +1,8 @@
+# Links  
+## WMI/CIM/WSMAN/WINRM  
+https://wmie.codeplex.com/  
 ## General  
+https://mdl-tb.ct8.pl/  
 http://duel.menu/ngpecsysadmin  
 https://etherpad.wikimedia.org/p/NgPecSysAdmin  
 http://awesomeawesome.party/  
@@ -16,10 +20,13 @@ https://powershell.org/category/podcast/
 https://github.com/michaelburns/LaunchPad  
 https://github.com/PowerShell/PowerShell  
 http://pastebin.com/u/powershell  
-
 ## rundll32 tricks  
 http://www.thewindowsclub.com/rundll32-shortcut-commands-windows  
-http://www.robvanderwoude.com/2kprintcontrol.php    
+http://www.robvanderwoude.com/2kprintcontrol.php  
+## WIN32 API / Deep Magic  
+https://undocumented.ntinternals.net/  
+https://research.microsoft.com/en-us/um/redmond/events/wincore2010/Dave_Probert_1.pdf  
+
 ## OS Deployment  
 https://technet.microsoft.com/en-us/library/dn781292.aspx  
 http://renshollanders.nl/2013/02/mdt-2012-settings-for-fully-automated-lti-deployment-part-ii-customsettings-ini/  
