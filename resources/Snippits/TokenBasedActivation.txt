@@ -1,0 +1,1 @@
+$(slmgr.vbs /ltc) -Match "Thumb" -Replace "Thumbprint: " | select-object -First 1 | % { slmgr.vbs /fta $_ }

@@ -1,0 +1,9 @@
+
+esxcli system maintenanceMode set --enable true
+esxcli network firewall ruleset set -e true -r httpClient
+esxcli software profile install --ok-to-remove -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-6.5.0-4564106-standard
+
+reboot
+
+esxcli network firewall ruleset set -e false -r httpClient
+esxcli system maintenanceMode set --enable false

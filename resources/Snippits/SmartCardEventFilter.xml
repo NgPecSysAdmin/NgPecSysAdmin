@@ -1,0 +1,5 @@
+<QueryList>
+  <Query Id='0' Path='System'>
+    <Select Path='System'>*[System[Provider[@Name='Microsoft-Windows-Smartcard-Server'] and (EventID=610 or EventID=616 or EventID=623)]]</Select>
+  </Query>
+</QueryList>

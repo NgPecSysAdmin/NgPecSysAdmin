@@ -1,0 +1,5 @@
+<QueryList>
+  <Query Id='0' Path='Microsoft-Windows-BitLocker/BitLocker Management'>
+    <Select Path='Microsoft-Windows-BitLocker/BitLocker Management'>*[System[Provider[@Name='Microsoft-Windows-BitLocker-API']]]</Select>
+  </Query>
+</QueryList>

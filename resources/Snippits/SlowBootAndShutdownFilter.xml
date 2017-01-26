@@ -1,0 +1,5 @@
+<QueryList>
+  <Query Id='0' Path='Microsoft-Windows-Diagnostics-Performance/Operational'>
+    <Select Path='Microsoft-Windows-Diagnostics-Performance/Operational'>*[System[Provider[@Name='Microsoft-Windows-Diagnostics-Performance'] and (Level=1  or Level=2)]]</Select>
+  </Query>
+</QueryList>

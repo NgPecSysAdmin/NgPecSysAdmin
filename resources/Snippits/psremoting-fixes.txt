@@ -1,0 +1,6 @@
+
+psexec.exe -accepteula -s -h -e -d \\$ComputerName powershell.exe "Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine -Force -ErrorAction SilentlyContinue | Out-Null"
+psexec.exe -accepteula -s -h -e -d \\$ComputerName powershell.exe "Enable-PSRemoting -Force | Out-Null"
+
+wmic /node:"%computername%" process call create "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine -Force -ErrorAction SilentlyContinue | Out-Null"
+wmic /node:"%computername%" process call create "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Enable-PsRemoting -Force -ErrorAction SilentlyContinue | Out-Null"

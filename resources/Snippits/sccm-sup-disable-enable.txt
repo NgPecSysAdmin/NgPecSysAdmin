@@ -1,0 +1,5 @@
+Disable SCCM Client SUP
+WMIC /namespace:\\root\ccm\policy\machine\requestedconfig path CCM_SoftwareUpdatesClientConfig  CREATE ComponentName="SmsSoftwareUpdate",Enabled="false",PolicySource="local",PolicyVersion="1.0" ,SiteSettingsKey="1" /NOINTERACTIVE
+
+Enable SCCM Client SUP
+WMIC /namespace:\\root\ccm\policy\machine\requestedconfig path CCM_SoftwareUpdatesClientConfig WHERE (ComponentName="SmsSoftwareUpdate" AND Enabled="false" AND PolicySource="local" AND PolicyVersion="1.0") delete /NOINTERACTIVE

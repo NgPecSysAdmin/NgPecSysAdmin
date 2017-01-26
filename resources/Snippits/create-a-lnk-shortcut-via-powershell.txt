@@ -1,0 +1,26 @@
+# Create a Shortcut with Windows PowerShell
+
+$TargetFile = "$env:SystemRoot\System32\notepad.exe"
+$ShortcutFile = "$env:Public\Desktop\Notepad.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$Shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$Shortcut.TargetPath = $TargetFile
+$Shortcut.Save()
+
+
+$shell = new-object -com "Shell.Application"  
+$folder = $shell.Namespace('C:\Windows')    
+$item = $folder.Parsename('notepad.exe')
+$verb = $item.Verbs() | Where-Object { $_.Name -eq 'Pin to Tas&kbar' }
+if ($verb) {$verb.DoIt()}
+
+
+# Pinning to Taskbar
+
+Pin:
+$sa = new-object -c shell.application
+$pn = $sa.namespace($env:Path).parsename('virtmgmt.msc')
+$pn.invokeverb('taskbarpin')
+
+Unpin:
+$pn.invokeverb('taskbarunpin')
