@@ -45,6 +45,7 @@ PROCESS {
 		$xml = [xml]$e.toxml()
 
 		Switch ($PSCmdlet.ParameterSetName) {
+
 			'Select' {
 
 				If( -not $Property -and -not $DataProperty -and -not $IncludeData ) {
@@ -177,7 +178,7 @@ PROCESS {
 
 			# endregion ParameterSet Extract
 
-		} # Switch
+		} # Switch (`$PSCmdlet.ParameterSetName)
 
 	} # ForEach ($e in $Event)
 
