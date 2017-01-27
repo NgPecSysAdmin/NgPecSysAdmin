@@ -1,4 +1,4 @@
-
+# Downloads the latest Java
 $bak = $ProgressPreference
 $ProgressPreference = 'SilentlyContinue'
 $downloadPage = 'http://www.oracle.com/'
