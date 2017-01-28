@@ -38,6 +38,7 @@ http://systemscenter.ru/
 http://www.deploymentninja.com/home/automated-windows-deployment-on-a-budget  
 ## Gotchas  
 https://support.microsoft.com/en-us/help/327825/problems-with-kerberos-authentication-when-a-user-belongs-to-many-groups  
+https://devopscollective.gitbooks.io/the-big-book-of-powershell-gotchas/content/  
 ## DNS  
 http://www.root-servers.org/  
 http://www.ask-mrdns.com/  
