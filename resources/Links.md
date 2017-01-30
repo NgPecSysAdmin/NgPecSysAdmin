@@ -26,7 +26,6 @@ http://www.robvanderwoude.com/2kprintcontrol.php
 ## WIN32 API / Deep Magic  
 https://undocumented.ntinternals.net/  
 https://research.microsoft.com/en-us/um/redmond/events/wincore2010/Dave_Probert_1.pdf  
-
 ## OS Deployment  
 https://technet.microsoft.com/en-us/library/dn781292.aspx  
 http://renshollanders.nl/2013/02/mdt-2012-settings-for-fully-automated-lti-deployment-part-ii-customsettings-ini/  
