@@ -19,12 +19,12 @@ $RegKey = '\HKLM\SYSTEM\CurentControlSet\Control\Terminal Server'
 $RemoteRegKeyString = '\\' + $ComputerName + $RegKey
 
 [array] $InstallArgs = @(
-	'add',
-	$RemoteRegKeyString,
-	'/v fDenyTSConnections',
-	'/t REG_DWORD',
-	'/d 0',
-	'/f'
+    'add',
+    $RemoteRegKeyString,
+    '/v fDenyTSConnections',
+    '/t REG_DWORD',
+    '/d 0',
+    '/f'
 )
 
 Start-Process -FilePath $ExePath -ArgumentList $InstallArgs -NoNewWindow -Wait | Out-Null
@@ -32,9 +32,9 @@ Start-Process -FilePath $ExePath -ArgumentList $InstallArgs -NoNewWindow -Wait |
 Via Set-ItemProperty  
 ```
 Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server' `
-				 -Name fDenyTSConnections `
-				 -Value 0 `
-				 -Force
+                 -Name fDenyTSConnections `
+                 -Value 0 `
+                 -Force
 ```
 ## DnsClientLogging  
 Enables DNS client logging.  
@@ -49,8 +49,8 @@ $log.SaveChanges()
 ## Download Google Chrome  
 ```
 Invoke-WebRequest `
-	-Uri 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi' `
-	-OutFile '.\googlechromestandaloneenterprise64.msi'
+    -Uri 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi' `
+    -OutFile '.\googlechromestandaloneenterprise64.msi'
 ```
 ## Scrape Links From a Web Page  
 ```
