@@ -1,4 +1,9 @@
 # Useful PowerShell Code Snippets  
+## Working with Group Policy Settings  
+```
+Get-CimInstance -Namespace root/RSOP/Computer `
+                -ClassName RSOP_RegistryPolicySetting
+```
 ## Making sure the AD cmdlets are installed  
 ```
 Add-WindowsFeature -Name RSAT-AD-PowerShell
