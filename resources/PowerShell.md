@@ -1,8 +1,10 @@
 # Useful PowerShell Code Snippets  
 ## Working with Group Policy Settings  
 ```
-Get-CimInstance -Namespace root/RSOP/Computer `
-                -ClassName RSOP_RegistryPolicySetting
+$SplatArgs = @{ Namespace = 'root/RSOP/Computer';
+                ClassName = 'RSOP_RegistryPolicySetting'}
+
+Get-CimInstance @SplatArgs
 ```
 ## Making sure the AD cmdlets are installed  
 ```
@@ -15,10 +17,12 @@ Add-WindowsFeature -Name RSAT-AD-PowerShell
 ## Enable RDP  
 Via Set-ItemProperty  
 ```
-Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server' `
-                 -Name fDenyTSConnections `
-                 -Value 0 `
-                 -Force
+$SplatArgs = @{ Path  = 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server';
+                Name  = 'fDenyTSConnections';
+                Value = '0';
+                Force = $true}
+
+Set-ItemProperty @SplatArgs
 ```
 ## DnsClientLogging  
 Enables DNS client logging.  
@@ -32,9 +36,10 @@ $log.SaveChanges()
 ```
 ## Download Google Chrome  
 ```
-Invoke-WebRequest `
-    -Uri 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi' `
-    -OutFile '.\googlechromestandaloneenterprise64.msi'
+$SplatArgs = @{ Uri = 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi';
+                OutFile = '.\googlechromestandaloneenterprise64.msi'}
+
+Invoke-WebRequest @SplatArgs
 ```
 ## Scrape Links From a Web Page  
 ```
