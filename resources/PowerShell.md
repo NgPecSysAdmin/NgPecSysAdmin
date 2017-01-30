@@ -13,27 +13,6 @@ Add-WindowsFeature -Name RSAT-AD-PowerShell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 ```
 ## Enable RDP  
-Via Remote Registry  
-```
-$computerName = $env:COMPUTERNAME
-
-$ExePath = 'C:\Windows\System32\reg.exe'
-
-$RegKey = '\HKLM\SYSTEM\CurentControlSet\Control\Terminal Server'
-
-$RemoteRegKeyString = '\\' + $ComputerName + $RegKey
-
-[array] $InstallArgs = @(
-    'add',
-    $RemoteRegKeyString,
-    '/v fDenyTSConnections',
-    '/t REG_DWORD',
-    '/d 0',
-    '/f'
-)
-
-Start-Process -FilePath $ExePath -ArgumentList $InstallArgs -NoNewWindow -Wait | Out-Null
-```
 Via Set-ItemProperty  
 ```
 Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server' `
