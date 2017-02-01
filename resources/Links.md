@@ -54,3 +54,5 @@ https://www.chcoc.gov/transmittals
 ## ACL/ACE/SDDL
 https://msdn.microsoft.com/en-us/library/windows/desktop/aa374928(v=vs.85).aspx  
 https://technet.microsoft.com/en-us/library/cc781716(v=ws.10).aspx  
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa374862(v=vs.85).aspx  
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa379649(v=vs.85).aspx  
