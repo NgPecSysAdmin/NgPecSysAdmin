@@ -15,6 +15,7 @@ https://atc.us.army.mil/iastar/docs/memo_2012_11_14.pdf
 https://atc.us.army.mil/iastar/docs/ce_certs.xlsx  
 https://github.com/oregon-national-guard/powershell/  
 http://duel.menu/orngpowershell  
+https://blogs.technet.microsoft.com/askpfeplat/2017/02/01/removing-self-signed-rdp-certificates/  
 ## PowerShell  
 https://powershell.org/category/podcast/  
 https://github.com/michaelburns/LaunchPad  
@@ -26,6 +27,7 @@ http://www.robvanderwoude.com/2kprintcontrol.php
 ## WIN32 API / Deep Magic  
 https://undocumented.ntinternals.net/  
 https://research.microsoft.com/en-us/um/redmond/events/wincore2010/Dave_Probert_1.pdf  
+https://msdn.microsoft.com/en-us/library/hh309472(v=vs.85).aspx  
 ## OS Deployment  
 https://technet.microsoft.com/en-us/library/dn781292.aspx  
 http://renshollanders.nl/2013/02/mdt-2012-settings-for-fully-automated-lti-deployment-part-ii-customsettings-ini/  
@@ -35,6 +37,7 @@ https://deploymentbunny.com/2012/04/21/back-to-basic-customsettings-ini-explaine
 https://thesystemsmonkey.wordpress.com/2016/02/24/configmgr-current-branchwindows-pe-peer-caching/  
 http://systemscenter.ru/  
 http://www.deploymentninja.com/home/automated-windows-deployment-on-a-budget  
+http://supportishere.com/export-and-import-lgpos-and-mlgpos-for-windows-10-in-mdt-2013-update-2-or-sccm/  
 ## Gotchas  
 https://support.microsoft.com/en-us/help/327825/problems-with-kerberos-authentication-when-a-user-belongs-to-many-groups  
 https://devopscollective.gitbooks.io/the-big-book-of-powershell-gotchas/content/  
@@ -48,4 +51,6 @@ http://www.caida.org/publications/posters/png/id-consumption_whois-map-20071001.
 https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1  
 ## Federal Employee  
 https://www.chcoc.gov/transmittals  
-## 
+## ACL/ACE/SDDL
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa374928(v=vs.85).aspx  
+https://technet.microsoft.com/en-us/library/cc781716(v=ws.10).aspx  
