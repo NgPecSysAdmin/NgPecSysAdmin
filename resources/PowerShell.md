@@ -2,7 +2,7 @@
 ## Working with Group Policy Settings  
 ```
 $SplatArgs = @{ Namespace = 'root/RSOP/Computer';
-                ClassName = 'RSOP_RegistryPolicySetting'}
+                ClassName = 'RSOP_RegistryPolicySetting' }
 
 Get-CimInstance @SplatArgs
 ```
@@ -20,7 +20,7 @@ Via Set-ItemProperty
 $SplatArgs = @{ Path  = 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server';
                 Name  = 'fDenyTSConnections';
                 Value = '0';
-                Force = $true}
+                Force = $true }
 
 Set-ItemProperty @SplatArgs
 ```
@@ -37,7 +37,7 @@ $log.SaveChanges()
 ## Download Google Chrome  
 ```
 $SplatArgs = @{ Uri = 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi';
-                OutFile = '.\googlechromestandaloneenterprise64.msi'}
+                OutFile = '.\googlechromestandaloneenterprise64.msi' }
 
 Invoke-WebRequest @SplatArgs
 ```

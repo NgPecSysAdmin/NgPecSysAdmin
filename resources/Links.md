@@ -4,6 +4,7 @@ https://wmie.codeplex.com/
 https://mcpmag.com/articles/2013/04/09/put-that-file-part-2.aspx  
 ## General
 https://mdl-tb.ct8.pl/  
+https://www.reddit.com/r/sysadmin/  
 http://duel.menu/ngpecsysadmin  
 https://etherpad.wikimedia.org/p/NgPecSysAdmin  
 http://awesomeawesome.party/  
@@ -24,8 +25,11 @@ https://github.com/michaelburns/LaunchPad
 https://github.com/PowerShell/PowerShell  
 http://pastebin.com/u/powershell  
 https://www.youtube.com/watch?v=Ahvs1rGPk1s&list=PLhj77zH16wHcmMoZdeIVcQT-i_ijjU48d  
+https://github.com/PrateekKumarSingh/CheatSheets  
 https://www.youtube.com/watch?v=KprrLkjPq_c&list=PLfeA8kIs7Coc1Jn5hC4e_XgbFUaS5jY2i  
+https://github.com/PrateekKumarSingh/ProjectOxford  
 https://www.youtube.com/watch?v=6CRTahGYnws&list=PL6D474E721138865A  
+https://www.reddit.com/search?q=powershell  
 ## rundll32 tricks
 http://www.thewindowsclub.com/rundll32-shortcut-commands-windows  
 http://www.robvanderwoude.com/2kprintcontrol.php  
@@ -63,3 +67,6 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/aa374862(v=vs.85).aspx
 https://msdn.microsoft.com/en-us/library/windows/desktop/aa379649(v=vs.85).aspx  
 ## XML
 https://www.petri.com/importing-complex-xml-powershell  
+## Software Packaging and Deployment
+http://psappdeploytoolkit.com/  
+https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/properties.html  
