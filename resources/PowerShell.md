@@ -36,7 +36,7 @@ $log.SaveChanges()
 ```
 ## Download Google Chrome  
 ```
-$SplatArgs = @{ Uri = 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi';
+$SplatArgs = @{ Uri     = 'https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi';
                 OutFile = '.\googlechromestandaloneenterprise64.msi' }
 
 Invoke-WebRequest @SplatArgs
@@ -44,4 +44,17 @@ Invoke-WebRequest @SplatArgs
 ## Scrape Links From a Web Page  
 ```
 ((Invoke-WebRequest -Uri "http://powershell.org/wp/").Links).href
+```
+## Extract the .msp files out of windows Update .cab archives
+```
+Get-ChildItem -Path C:\Windows\SoftwareDistribution\Download\*.cab -Recurse |
+Select-Object -ExpandProperty FullName |
+ForEach-Object { expand.exe $_ -F:* C:\Updates\ }
+```
+## Filtering Saved Windows Event Log Files With PowerShell
+Substitute 'user.name' and 'host-name' for desired values  
+```
+$LogPath = "\\server\share\name-of-log.evt"
+$XpathFilter = "*[EventData[Data[@Name='TargetUserName'] = 'user.name']] or *[EventData[Data[@Name='Workstation'] = 'host-name']]"
+Get-WinEvent -Path $LogPath -Oldest -FilterXPath $XpathFilter
 ```
