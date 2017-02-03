@@ -52,9 +52,11 @@ Select-Object -ExpandProperty FullName |
 ForEach-Object { expand.exe $_ -F:* C:\Updates\ }
 ```
 ## Filtering Saved Windows Event Log Files With PowerShell
-Substitute 'user.name' and 'host-name' for desired values  
+Substitute '$env:USERNAME' and '$env:COMPUTERNAME' for desired values  
 ```
-$LogPath = "\\server\share\name-of-log.evt"
-$XpathFilter = "*[EventData[Data[@Name='TargetUserName'] = 'user.name']] or *[EventData[Data[@Name='Workstation'] = 'host-name']]"
-Get-WinEvent -Path $LogPath -Oldest -FilterXPath $XpathFilter
+$SplatArgs = @{ LogName      = 'Security';
+                FilterXPath  = "*[EventData[Data[@Name='TargetUserName'] = '$env:USERNAME']]";
+				ComputerName = $env:COMPUTERNAME }
+
+Get-WinEvent @SplatArgs
 ```
