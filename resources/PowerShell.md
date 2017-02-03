@@ -51,7 +51,7 @@ Get-ChildItem -Path C:\Windows\SoftwareDistribution\Download\*.cab -Recurse |
 Select-Object -ExpandProperty FullName |
 ForEach-Object { expand.exe $_ -F:* C:\Updates\ }
 ```
-## Filtering Saved Windows Event Log Files With PowerShell
+## Filtering Windows Event Log With PowerShell
 Substitute '$env:USERNAME' and '$env:COMPUTERNAME' for desired values  
 ```
 $SplatArgs = @{ LogName      = 'Security';
