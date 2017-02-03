@@ -60,3 +60,12 @@ $SplatArgs = @{ LogName      = 'Security';
 
 Get-WinEvent @SplatArgs
 ```
+## Filtering Saved .evt
+```
+$SplatArgs = @{ Path         = 'C:\path\to\savedlog.evt';
+				Oldest       = $true;
+                FilterXPath  = "*[EventData[Data[@Name='TargetUserName'] = '$env:USERNAME']]" }
+
+Get-WinEvent @SplatArgs
+```
+If it's a newer .evtx format, you can omit the '-Oldest' parameter.  
