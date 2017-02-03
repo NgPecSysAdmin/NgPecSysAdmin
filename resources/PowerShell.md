@@ -60,7 +60,7 @@ $SplatArgs = @{ LogName      = 'Security';
 
 Get-WinEvent @SplatArgs
 ```
-## Filtering Saved .evt
+## Filtering a Saved .evt Event Log
 ```
 $SplatArgs = @{ Path         = 'C:\path\to\savedlog.evt';
 				Oldest       = $true;
