@@ -24,6 +24,11 @@ $SplatArgs = @{ Path  = 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server'
 
 Set-ItemProperty @SplatArgs
 ```
+## Disable UAC
+```
+Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system -Name ConsentPromptBehaviorAdmin -Value 0 -Force
+Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system -Name EnableLUA -Value 0 -Force
+```
 ## DnsClientLogging  
 Enables DNS client logging.  
 Sets the max log size to 128 MB.  

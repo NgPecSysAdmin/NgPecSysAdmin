@@ -13,7 +13,12 @@ reg add HKCU\Software\Microsoft\Office\15.0\Common\Internet /v UseOnlineContent 
 ```
 ## Replace CMD with PowerShell in WinX Menu
 ```
-reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v DontUsePowerShellOnWinX /t REG_DWORD /d 0
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v DontUsePowerShellOnWinX /t REG_DWORD /d 0 /f
+```
+## Disable UAC
+```
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system /v ConsentPromptBehaviorAdmin /t REG_DWORD /d 0 /f
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system /v EnableLUA /t REG_DWORD /d 0 /f
 ```
 ## Literal string match recursively in all .txt files
 ```
