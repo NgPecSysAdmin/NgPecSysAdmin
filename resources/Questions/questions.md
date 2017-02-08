@@ -5256,26 +5256,25 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  64-bit or Itanium processor
 
-        2.  []{#path_to .anchor}Which of the following paths is a valid
-            upgrade path to Windows Server 2012 R2?
+        2.  Which of the following paths is a valid upgrade path to
+            Windows Server 2012 R2?
 
-            a.  []{#Server_ .anchor}Windows Server 2003 Standard to
-                Windows Server 2012 R2 Standard
+            a.  Windows Server 2003 Standard to Windows Server 2012 R2
+                Standard
 
-            b.  []{#Standard_to .anchor}***Windows Server 2008 Standard
-                to Windows Server 2012 R2 Standard***
+            b.  ***Windows Server 2008 Standard to Windows Server 2012
+                R2 Standard***
 
-            c.  []{#to_Windows .anchor}Windows Server 2008 32-bit to
-                Windows Server 2012 R2 64-bit
+            c.  Windows Server 2008 32-bit to Windows Server 2012 R2
+                64-bit
 
             d.  Windows 7 Ultimate to Windows Server 2012 R2 Essentials
 
-        3.  []{#Windows_Server .anchor}Which of the following features
-            must be added to a Windows Server 2012 R2 Server Core
-            installation to convert it to the Minimal Server Interface?
+        3.  Which of the following features must be added to a Windows
+            Server 2012 R2 Server Core installation to convert it to the
+            Minimal Server Interface?
 
-            a.  []{#Graphical_Management .anchor}***Graphical Management
-                Tools and Infrastructure***
+            a.  ***Graphical Management Tools and Infrastructure***
 
             b.  Server Graphical Shell
 
@@ -5283,10 +5282,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Microsoft Management Console
 
-        4.  []{#following_terms .anchor}Which of the following terms is
-            the name of the directory where Windows stores all the
-            operating system modules it might need to install at a later
-            time?
+        4.  Which of the following terms is the name of the directory
+            where Windows stores all the operating system modules it
+            might need to install at a later time?
 
             a.  Windows
 
@@ -5296,26 +5294,23 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***WinSxS***
 
-        5.  []{#to_why .anchor}Which of the following statements are
-            valid reasons as to why administrators might want to install
-            their Windows Server 2012 R2 servers by using the Server
-            Core option? (Choose all that apply.)
+        5.  Which of the following statements are valid reasons as to
+            why administrators might want to install their Windows
+            Server 2012 R2 servers by using the Server Core option?
+            (Choose all that apply.)
 
-            a.  []{#Server_Core .anchor}***A Server Core installation
-                can be converted to the full GUI without reinstalling
-                the operating system.***
+            a.  ***A Server Core installation can be converted to the
+                full GUI without reinstalling the operating system.***
 
             b.  The Windows PowerShell 4.0 interface in Windows Server
                 2012 R2 includes more than 10 times as many cmdlets as
                 Windows PowerShell 2.0.
 
-            c.  []{#much_easier .anchor}***The new Server Manager in
-                Windows Server 2012 R2 makes it much easier to
-                administer servers remotely.***
+            c.  ***The new Server Manager in Windows Server 2012 R2
+                makes it much easier to administer servers remotely.***
 
-            d.  []{#license_costs .anchor}A Windows Server 2012 R2
-                Server Core license costs significantly less than a full
-                GUI license
+            d.  A Windows Server 2012 R2 Server Core license costs
+                significantly less than a full GUI license
 
     2.  Lesson 2 Objective Overview
         ---------------------------
@@ -5324,8 +5319,7 @@ Lesson 1: Implementing Active Directory Federation Services
             of Windows Server 2012 R2 in order to convert it to a Server
             Core installation? (Choose all that apply.)
 
-            a.  []{#Management_Instrumentation .anchor}Windows
-                Management Instrumentation (WMI)
+            a.  Windows Management Instrumentation (WMI)
 
             b.  ***Graphical Management Tools and Infrastructure***
 
@@ -5333,9 +5327,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Server Graphical Shell***
 
-        2.  []{#modes_provides .anchor}Which of the following NIC
-            teaming modes provides fault tolerance and bandwidth
-            aggregation?
+        2.  Which of the following NIC teaming modes provides fault
+            tolerance and bandwidth aggregation?
 
             a.  Hyper-V live migration
 
@@ -5345,8 +5338,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Link Aggregation Control Protocol
 
-        3.  []{#a_computer .anchor}Which of the following command-line
-            tools are used to join a computer to a domain?
+        3.  Which of the following command-line tools are used to join a
+            computer to a domain?
 
             a.  Net.exe
 
@@ -5356,11 +5349,11 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Ipconfig.exe
 
-        4.  []{#about_Server .anchor}Which of the following statements
-            about Server Manager is *not* true?
+        4.  Which of the following statements about Server Manager
+            is *not* true?
 
-            a.  []{#can_deploy .anchor}***Server Manager can deploy
-                roles to multiple servers at the same time.***
+            a.  ***Server Manager can deploy roles to multiple servers
+                at the same time.***
 
             b.  Server Manager can deploy roles to VHDs while they are
                 offline.
@@ -5371,9 +5364,8 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Server Manager can install roles and features to any
                 Windows Server 2012 R2 server on the network.
 
-        5.  []{#Which_of .anchor}Which of the following operations can
-            you *not*[]{#service_by .anchor} perform on a service by
-            using Server Manager? (Choose all that apply.)
+        5.  Which of the following operations can you *not* perform on a
+            service by using Server Manager? (Choose all that apply.)
 
             a.  Stop a running service
 
@@ -5398,33 +5390,29 @@ Lesson 1: Implementing Active Directory Federation Services
 
             c.  You can extend striped volumes after creation.
 
-            d.  []{#all_the .anchor}***If a single physical disk in the
-                striped volume fails, all the data in the entire volume
-                is lost.***
+            d.  ***If a single physical disk in the striped volume
+                fails, all the data in the entire volume is lost.***
 
-        2.  []{#best_describes .anchor}Which of the following statements
-            best describes the requirements for extending a volume on a
-            dynamic disk? (Choose all that apply.)
+        2.  Which of the following statements best describes the
+            requirements for extending a volume on a dynamic disk?
+            (Choose all that apply.)
 
-            a.  []{#want_to .anchor}***If you want to extend a simple
-                volume, you can use only the available space on the same
-                disk if the volume is to remain simple.***
+            a.  ***If you want to extend a simple volume, you can use
+                only the available space on the same disk if the volume
+                is to remain simple.***
 
-            b.  []{#must_have .anchor}The volume must have a file system
-                (a raw volume) before you can extend a simple or spanned
-                volume.
+            b.  The volume must have a file system (a raw volume) before
+                you can extend a simple or spanned volume.
 
-            c.  []{#formatted_it .anchor}You can extend a simple or
-                spanned volume if you formatted it by using the FAT or
-                FAT32 file systems.
+            c.  You can extend a simple or spanned volume if you
+                formatted it by using the FAT or FAT32 file systems.
 
-            d.  []{#You_can .anchor}***You can extend a simple volume
-                across additional disks if it is not a system volume or
-                a boot volume.***
+            d.  ***You can extend a simple volume across additional
+                disks if it is not a system volume or a boot volume.***
 
-        3.  []{#following_volume .anchor}Which of the following volume
-            types supported by Windows Server 2012 R2 provide fault
-            tolerance? (Choose all that apply.)
+        3.  Which of the following volume types supported by Windows
+            Server 2012 R2 provide fault tolerance? (Choose all that
+            apply.)
 
             a.  Striped
 
@@ -5434,8 +5422,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***RAID-5***
 
-        4.  []{#of_the .anchor}A JBOD drive array is an alternative to
-            which of the following storage technologies?
+        4.  A JBOD drive array is an alternative to which of the
+            following storage technologies?
 
             a.  SAN
 
@@ -5474,27 +5462,25 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Assignment
 
-        3.  []{#following_are .anchor}Which of the following are tasks
-            you can perform by using the quotas in File Server Resource
-            Manager but can’t perform by using NTFS quotas? (Choose all
-            that apply.)
+        3.  Which of the following are tasks you can perform by using
+            the quotas in File Server Resource Manager but can’t perform
+            by using NTFS quotas? (Choose all that apply.)
 
-            a.  []{#exceed_their .anchor}***Send an email message to an
-                administrator when users exceed their limits.***
+            a.  ***Send an email message to an administrator when users
+                exceed their limits.***
 
-            b.  []{#different_storage .anchor}Specify different storage
-                limits for each user.
+            b.  Specify different storage limits for each user.
 
-            c.  []{#on_a .anchor}Prevent users from consuming storage
-                space on a volume beyond their allotted limit.
+            c.  Prevent users from consuming storage space on a volume
+                beyond their allotted limit.
 
-            d.  []{#storage_limit .anchor}Generate warnings to users
-                when they approach their allotted storage limit.
+            d.  Generate warnings to users when they approach their
+                allotted storage limit.
 
-        4.  []{#permission_system .anchor}In the Windows Server 2012 R2
-            NTFS permission system, combinations of advanced permissions
-            are also known as \_\_\_\_\_\_\_\_\_\_\_\_\_ permissions.
-            (Choose all that apply.)
+        4.  In the Windows Server 2012 R2 NTFS permission system,
+            combinations of advanced permissions are also known as
+            \_\_\_\_\_\_\_\_\_\_\_\_\_ permissions. (Choose all that
+            apply.)
 
             a.  Special
 
@@ -5504,25 +5490,24 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Standard***
 
-        5.  []{#the_following .anchor}Which of the following statements
-            best describes the role of the security principal in file
-            system permission assignments?
+        5.  Which of the following statements best describes the role of
+            the security principal in file system permission
+            assignments?
 
-            a.  []{#principal_in .anchor}The security principal in file
-                system permission assignments is the only person who can
-                access a file that has no permissions assigned to it.
+            a.  The security principal in file system permission
+                assignments is the only person who can access a file
+                that has no permissions assigned to it.
 
-            b.  []{#person_responsible .anchor}The security principal in
-                file system permission assignments is the person
-                responsible for creating permission policies.
+            b.  The security principal in file system permission
+                assignments is the person responsible for creating
+                permission policies.
 
-            c.  []{#The_security .anchor}The security principal in file
-                system permission assignments is the person assigning
-                the permissions.
+            c.  The security principal in file system permission
+                assignments is the person assigning the permissions.
 
-            d.  []{#in_file .anchor}***The security principal in file
-                system permission assignments is the person to whom the
-                permissions are assigned.***
+            d.  ***The security principal in file system permission
+                assignments is the person to whom the permissions are
+                assigned.***
 
     2.  Lesson 2 Objective Overview
         ---------------------------
@@ -5537,34 +5522,33 @@ Lesson 1: Implementing Active Directory Federation Services
 
             c.  Printer driver
 
-            d.  []{#Management_console .anchor}Print Management console
+            d.  Print Management console
 
-        2.  []{#pool_on .anchor}You are setting up a printer pool on a
-            computer running Windows Server 2012 R2. The printer pool
-            contains three identical print devices. You open the
-            Properties dialog box for the printer and select the Enable
-            Printer Pooling option on the Ports tab. Which of the
-            following steps must you perform next?
+        2.  You are setting up a printer pool on a computer running
+            Windows Server 2012 R2. The printer pool contains three
+            identical print devices. You open the Properties dialog box
+            for the printer and select the Enable Printer Pooling option
+            on the Ports tab. Which of the following steps must you
+            perform next?
 
             a.  Configure the LPT1 port to support three printers.
 
             b.  ***Select or create the ports mapped to the three
                 printers.***
 
-            c.  []{#support_two .anchor}On the Device Settings tab,
-                configure the installable options to support two
-                additional print devices.
+            c.  On the Device Settings tab, configure the installable
+                options to support two additional print devices.
 
-            d.  []{#priority_for .anchor}On the Advanced tab, configure
-                the priority for each print device so that printing is
-                distributed among the three print devices.
+            d.  On the Advanced tab, configure the priority for each
+                print device so that printing is distributed among the
+                three print devices.
 
-        3.  []{#your_print .anchor}One of your print devices is not
-            working properly, so you want to temporarily prevent users
-            from sending jobs to the printer serving that device. Which
-            of the following actions should you take?
+        3.  One of your print devices is not working properly, so you
+            want to temporarily prevent users from sending jobs to the
+            printer serving that device. Which of the following actions
+            should you take?
 
-            a.  []{#the_printer .anchor}***Stop sharing the printer.***
+            a.  ***Stop sharing the printer.***
 
             b.  Remove the printer from Active Directory.
 
@@ -5572,20 +5556,19 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Rename the share.
 
-        4.  []{#a_print .anchor}You are administering a computer running
-            Windows Server 2012 R2 configured as a print server. Users
-            in the Marketing group report that they cannot print
-            documents using a printer on the server. You view the
-            permissions in the printer’s properties. The Marketing group
-            is allowed Manage Documents permission. Which of the
-            following statements best explains why the users cannot
-            print to the printer?
+        4.  You are administering a computer running Windows Server 2012
+            R2 configured as a print server. Users in the Marketing
+            group report that they cannot print documents using a
+            printer on the server. You view the permissions in the
+            printer’s properties. The Marketing group is allowed Manage
+            Documents permission. Which of the following statements best
+            explains why the users cannot print to the printer?
 
-            a.  []{#The_Everyone .anchor}The Everyone group must be
-                granted the Manage Documents permission.
+            a.  The Everyone group must be granted the Manage Documents
+                permission.
 
-            b.  []{#must_be .anchor}The Administrators group must be
-                granted the Manage Printers permission.
+            b.  The Administrators group must be granted the Manage
+                Printers permission.
 
             c.  ***The Marketing group must be granted the Print
                 permission.***
@@ -5593,30 +5576,27 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  The Marketing group must be granted the Manage Printers
                 permission.
 
-        5.  []{#You_want .anchor}You are administering a print server
-            running Windows Server 2012 R2. You want to perform
-            maintenance on a print device physically connected to the
-            print server. There are several documents in the print
-            queue. You want to prevent the documents from being printed
-            to the printer, but you don’t want users to have to resubmit
-            the documents to the printer. Which of the following
-            statements best describes the best way to do this?
+        5.  You are administering a print server running Windows Server
+            2012 R2. You want to perform maintenance on a print device
+            physically connected to the print server. There are several
+            documents in the print queue. You want to prevent the
+            documents from being printed to the printer, but you don’t
+            want users to have to resubmit the documents to the printer.
+            Which of the following statements best describes the best
+            way to do this?
 
             a.  Open the printer’s Properties dialog box, select the
                 Sharing tab, and select the Do Not Share This Printer
                 option.
 
-            b.  []{#select_a .anchor}Open the printer’s Properties
-                dialog box and select a port that is not associated with
-                a print device.
+            b.  Open the printer’s Properties dialog box and select a
+                port that is not associated with a print device.
 
-            c.  []{#from_the .anchor}Open the printer’s queue window,
-                select the first document, and select Pause from the
-                Document window.
+            c.  Open the printer’s queue window, select the first
+                document, and select Pause from the Document window.
 
-            d.  []{#select_the .anchor}***Open the printer’s queue
-                window and select the Pause Printing option from the
-                Printer menu.***
+            d.  ***Open the printer’s queue window and select the Pause
+                Printing option from the Printer menu.***
 
     3.  Lesson 3 Objective Overview
         ---------------------------
@@ -5625,7 +5605,7 @@ Lesson 1: Implementing Active Directory Federation Services
             manage a remote server running Windows Server 2012 R2 using
             the Computer Management snap-in?
 
-            a.  []{#on_the .anchor}Enable WinRM on the remote server.
+            a.  Enable WinRM on the remote server.
 
             b.  ***Enable the COM+ Network Access rule on the remote
                 server.***
@@ -5636,10 +5616,10 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Install Remote Server Administration Tools on the remote
                 server.
 
-        2.  []{#to_list .anchor}Which of the following Windows
-            PowerShell cmdlets can you use to list the existing Windows
-            Firewall rules on a computer running Windows Server 2012 R2?
-            (Choose all that apply.)
+        2.  Which of the following Windows PowerShell cmdlets can you
+            use to list the existing Windows Firewall rules on a
+            computer running Windows Server 2012 R2? (Choose all that
+            apply.)
 
             a.  ***Get-NetFirewallRule***
 
@@ -5649,23 +5629,22 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  New-NetFirewallRule
 
-        3.  Which of the following tasks can you *not*[]{#a_server
-            .anchor} perform remotely on a server running Windows Server
-            2008?
+        3.  Which of the following tasks can you *not* perform remotely
+            on a server running Windows Server 2008?
 
             a.  ***Install roles by using Server Manager***
 
             b.  Install roles by using Windows PowerShell
 
-            c.  []{#Management_snap .anchor}Connect to the remote server
-                by using the Computer Management snap-in
+            c.  Connect to the remote server by using the Computer
+                Management snap-in
 
-            d.  []{#event_log .anchor}Monitor event log entries
+            d.  Monitor event log entries
 
-        4.  []{#you_install .anchor}Which of the following updates must
-            you install on a server running Windows Server 2008 before
-            you can connect to it by using Windows Server 2012 R2 Server
-            Manager? (Choose all that apply.)
+        4.  Which of the following updates must you install on a server
+            running Windows Server 2008 before you can connect to it by
+            using Windows Server 2012 R2 Server Manager? (Choose all
+            that apply.)
 
             a.  .NET Framework 3.5
 
@@ -5675,10 +5654,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Windows Server 2008 R2
 
-        5.  []{#using_Remote .anchor}When you run Server Manager from a
-            Windows 8 workstation using Remote Server Administration
-            Tools, which of the following elements do *not* appear in
-            the default display?
+        5.  When you run Server Manager from a Windows 8 workstation
+            using Remote Server Administration Tools, which of the
+            following elements do *not* appear in the default display?
 
             a.  The Dashboard
 
@@ -5697,22 +5675,21 @@ Lesson 1: Implementing Active Directory Federation Services
         1.  Which of the following statements about Type I and Type II
             virtualization are true? (Choose all that apply.)
 
-            a.  []{#In_Type .anchor}In Type I virtualization, the
-                hypervisor runs on top of a host OS.
+            a.  In Type I virtualization, the hypervisor runs on top of
+                a host OS.
 
-            b.  []{#the_hypervisor .anchor}***In Type I virtualization,
-                the hypervisor runs directly on the computer
-                hardware.***
+            b.  ***In Type I virtualization, the hypervisor runs
+                directly on the computer hardware.***
 
-            c.  []{#a_host .anchor}***In Type II virtualization, the
-                hypervisor runs on top of a host OS.***
+            c.  ***In Type II virtualization, the hypervisor runs on top
+                of a host OS.***
 
-            d.  []{#Type_II .anchor}In Type II virtualization, the
-                hypervisor runs directly on the computer hardware.
+            d.  In Type II virtualization, the hypervisor runs directly
+                on the computer hardware.
 
-        2.  []{#server_virtualization .anchor}Which of the following
-            types of server virtualization provides the best performance
-            for high-traffic servers in production environments?
+        2.  Which of the following types of server virtualization
+            provides the best performance for high-traffic servers in
+            production environments?
 
             a.  ***Type I virtualization***
 
@@ -5722,9 +5699,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  RemoteApp
 
-        3.  []{#license_that .anchor}Which of the following Microsoft
-            operating systems includes a license that enables you to
-            license an unlimited number of virtual instances?
+        3.  Which of the following Microsoft operating systems includes
+            a license that enables you to license an unlimited number of
+            virtual instances?
 
             a.  Hyper-V Server
 
@@ -5734,10 +5711,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Windows Server 2012 R2 Foundation
 
-        4.  []{#make_it .anchor}Which of the following Hyper-V features
-            make it possible for a VM to function with a minimum RAM
-            value that is lower than the startup RAM value? (Choose all
-            that apply.)
+        4.  Which of the following Hyper-V features make it possible for
+            a VM to function with a minimum RAM value that is lower than
+            the startup RAM value? (Choose all that apply.)
 
             a.  ***Smart paging***
 
@@ -5747,35 +5723,33 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Guest Integration Services***
 
-        5.  []{#install_the .anchor}When you install the Hyper-V role on
-            a server running Windows Server 2012 R2, the instance of the
-            OS on which you installed the role is converted to what
-            system element?
+        5.  When you install the Hyper-V role on a server running
+            Windows Server 2012 R2, the instance of the OS on which you
+            installed the role is converted to what system element?
 
             a.  The hypervisor
 
-            b.  []{#Machine_Monitor .anchor}The Virtual Machine Monitor
+            b.  The Virtual Machine Monitor
 
             c.  ***The parent partition***
 
             d.  A child partition
 
-        6.  []{#machines_are .anchor}Which of the following statements
-            about Generation 1 and Generation 2 virtual machines are
-            true? (Choose all that apply.)
+        6.  Which of the following statements about Generation 1 and
+            Generation 2 virtual machines are true? (Choose all that
+            apply.)
 
-            a.  []{#You_must .anchor}You must create a Generation 1 VM
-                before you can create a Generation 2 VM.
+            a.  You must create a Generation 1 VM before you can create
+                a Generation 2 VM.
 
-            b.  []{#faster_than .anchor}***Generation 2 VMs deploy
-                faster than Generation 1 VMs.***
+            b.  ***Generation 2 VMs deploy faster than Generation 1
+                VMs.***
 
-            c.  []{#guest_operating .anchor}Generation 2 VMs only
-                support Windows 8.1 and Windows Server 2012 R2 as guest
-                operating systems.
+            c.  Generation 2 VMs only support Windows 8.1 and Windows
+                Server 2012 R2 as guest operating systems.
 
-            d.  []{#VMs_use .anchor}Generation 2 VMs use the same device
-                drivers as Generation 1 VMs.
+            d.  Generation 2 VMs use the same device drivers as
+                Generation 1 VMs.
 
     2.  Lesson 2 Objective Overview
         ---------------------------
@@ -5788,46 +5762,38 @@ Lesson 1: Implementing Active Directory Federation Services
             b.  ***VHDX files can only be opened by computers running
                 Windows Server 2012 and Windows Server 2012 R2.***
 
-            c.  []{#sizes_than .anchor}VHDX files support larger block
-                sizes than VHD files.
+            c.  VHDX files support larger block sizes than VHD files.
 
-            d.  []{#support_ .anchor}VHDX files support 4-KB logical
-                sectors.
+            d.  VHDX files support 4-KB logical sectors.
 
         2.  Which of the following must be true about a pass-through
             disk?
 
-            a.  []{#will_access .anchor}A pass-through disk must be
-                offline in the guest OS that will access it.
+            a.  A pass-through disk must be offline in the guest OS that
+                will access it.
 
-            b.  []{#A_pass .anchor}***A pass-through disk must be
-                offline in the parent partition of the Hyper-V
-                server.***
+            b.  ***A pass-through disk must be offline in the parent
+                partition of the Hyper-V server.***
 
-            c.  []{#only_be .anchor}A pass-through disk can only be
-                connected to a SCSI controller.
+            c.  A pass-through disk can only be connected to a SCSI
+                controller.
 
-            d.  []{#the_Disk .anchor}A pass-through disk must be added
-                to a VM with the Disk Management snap-in.
+            d.  A pass-through disk must be added to a VM with the Disk
+                Management snap-in.
 
-        3.  []{#Merge_function .anchor}The Merge function only appears
-            in the Edit Virtual Hard Disk Wizard under which of the
-            following conditions?
+        3.  The Merge function only appears in the Edit Virtual Hard
+            Disk Wizard under which of the following conditions?
 
-            a.  []{#for_editing .anchor}When you select a VHDX file for
-                editing
+            a.  When you select a VHDX file for editing
 
             b.  When you select two or more disks for editing
 
-            c.  []{#in_it .anchor}When you select a disk with free space
-                available in it
+            c.  When you select a disk with free space available in it
 
-            d.  []{#disk_for .anchor}***When you select a differencing
-                disk for editing***
+            d.  ***When you select a differencing disk for editing***
 
-        4.  Which of the following are valid
-            reasons *not*[]{#checkpoints_of .anchor} to take checkpoints
-            of VMs? (Choose all that apply.)
+        4.  Which of the following are valid reasons *not* to take
+            checkpoints of VMs? (Choose all that apply.)
 
             a.  ***Checkpoints can consume a large amount of disk
                 space.***
@@ -5845,15 +5811,14 @@ Lesson 1: Implementing Active Directory Federation Services
 
             a.  You must create a Fibre Channel virtual SAN.
 
-            b.  []{#the_host .anchor}You must have a physical Fibre
-                Channel adapter installed in the host computer.
+            b.  You must have a physical Fibre Channel adapter installed
+                in the host computer.
 
             c.  You must have a Fibre Channel adapter driver that
                 supports virtual networking.
 
-            d.  []{#a_SCSI .anchor}***You must have a SCSI cable
-                connecting the Fibre Channel adapter to the storage
-                devices.***
+            d.  ***You must have a SCSI cable connecting the Fibre
+                Channel adapter to the storage devices.***
 
     3.  Lesson 3 Objective Overview
         ---------------------------
@@ -5862,19 +5827,17 @@ Lesson 1: Implementing Active Directory Federation Services
             emulated network adapter rather than a synthetic one?
             (Choose all that apply.)
 
-            a.  []{#a_Windows .anchor}***You want to install the guest
-                OS by using a Windows Deployment Services server.***
+            a.  ***You want to install the guest OS by using a Windows
+                Deployment Services server.***
 
-            b.  []{#Services_package .anchor}***There is no Guest
-                Integration Services package available for the guest OS
-                you plan to use.***
+            b.  ***There is no Guest Integration Services package
+                available for the guest OS you plan to use.***
 
-            c.  []{#of_your .anchor}The manufacturer of your physical
-                network adapter has not yet provided a synthetic network
-                adapter driver.
+            c.  The manufacturer of your physical network adapter has
+                not yet provided a synthetic network adapter driver.
 
-            d.  []{#network_adapter .anchor}The emulated network adapter
-                provides better performance.
+            d.  The emulated network adapter provides better
+                performance.
 
         2.  Which of the following statements is *not* true about
             synthetic network adapters?
@@ -5882,18 +5845,17 @@ Lesson 1: Implementing Active Directory Federation Services
             a.  Synthetic adapters communicate with the parent partition
                 by using the VMBus.
 
-            b.  []{#installed_on .anchor}Synthetic adapters require the
-                Guest Integration Services package to be installed on
-                the guest OS.
+            b.  Synthetic adapters require the Guest Integration
+                Services package to be installed on the guest OS.
 
-            c.  []{#Synthetic_adapters .anchor}Synthetic adapters
-                provide faster performance than emulated adapters.
+            c.  Synthetic adapters provide faster performance than
+                emulated adapters.
 
-            d.  []{#start_the .anchor}***Synthetic adapters can start
-                the child VM by using a PXE network boot.***
+            d.  ***Synthetic adapters can start the child VM by using a
+                PXE network boot.***
 
-        3.  []{#a_Hyper .anchor}What is the maximum number of ports
-            supported by a Hyper-V virtual switch?
+        3.  What is the maximum number of ports supported by a Hyper-V
+            virtual switch?
 
             a.  8
 
@@ -5904,8 +5866,8 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  ***Unlimited***
 
         4.  Which of the following virtual switch types
-            does *not*[]{#the_parent .anchor} enable guest OSs to
-            communicate with the parent partition?
+            does *not* enable guest OSs to communicate with the parent
+            partition?
 
             a.  External
 
@@ -5915,8 +5877,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Isolated
 
-        5.  []{#provide_by .anchor}How many dynamically assigned MAC
-            addresses can a Hyper-V server provide by default?
+        5.  How many dynamically assigned MAC addresses can a Hyper-V
+            server provide by default?
 
             a.  8
 
@@ -5943,8 +5905,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Contracting
 
-        2.  []{#private_IPv .anchor}Which of the following is the IPv6
-            equivalent to a private IPv4 address?
+        2.  Which of the following is the IPv6 equivalent to a private
+            IPv4 address?
 
             a.  Link-local unicast address
 
@@ -5954,9 +5916,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Anycast address
 
-        3.  []{#an_automatic .anchor}Which of the following is an
-            automatic tunneling protocol used by Windows operating
-            systems that are located behind NAT routers?
+        3.  Which of the following is an automatic tunneling protocol
+            used by Windows operating systems that are located behind
+            NAT routers?
 
             a.  ***Teredo***
 
@@ -5966,8 +5928,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  APIPA
 
-        4.  []{#of_IP .anchor}Which type of IP address must a system
-            have to be visible from the Internet?
+        4.  Which type of IP address must a system have to be visible
+            from the Internet?
 
             a.  ***Registered***
 
@@ -6017,9 +5979,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  DHCPINFORM
 
-        3.  []{#the_equivalent .anchor}Which of the following DHCP
-            address allocation types is the equivalent of a reservation
-            in Windows Server 2012 R2?
+        3.  Which of the following DHCP address allocation types is the
+            equivalent of a reservation in Windows Server 2012 R2?
 
             a.  Dynamic allocation
 
@@ -6040,8 +6001,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Windows Server 2012 R2 computers***
 
-        5.  []{#typically_deployed .anchor}Which of the following TCP/IP
-            parameters is typically deployed as a scope option in DHCP?
+        5.  Which of the following TCP/IP parameters is typically
+            deployed as a scope option in DHCP?
 
             a.  DNS Server
 
@@ -6066,9 +6027,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***PTR***
 
-        2.  []{#be_the .anchor}Which of the following would be the
-            correct FQDN for a resource record in a reverse lookup zone
-            if the computer’s IP address is 10.75.143.88?
+        2.  Which of the following would be the correct FQDN for a
+            resource record in a reverse lookup zone if the computer’s
+            IP address is 10.75.143.88?
 
             a.  ***88.143.75.10.in-addr.arpa***
 
@@ -6078,8 +6039,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  arpa.in-addr.10.75.143.88
 
-        3.  Which of the following is *not*[]{#the_elements .anchor} one
-            of the elements of DNS?
+        3.  Which of the following is *not* one of the elements of DNS?
 
             a.  Resolvers
 
@@ -6089,38 +6049,34 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Namespace
 
-        4.  []{#system_generate .anchor}In which of the following DNS
-            transactions does the querying system generate a recursive
-            query?
+        4.  In which of the following DNS transactions does the querying
+            system generate a recursive query?
 
-            a.  []{#A_DNS .anchor}***A DNS client sends the server
-                name [www.adatum.com](http://www.adatum.com/)***[]{#DNS_server
-                .anchor}*** to its designated DNS server for
-                resolution.***
+            a.  ***A DNS client sends the server
+                name [www.adatum.com](http://www.adatum.com/) to its
+                designated DNS server for resolution.***
 
-            b.  []{#domain_server .anchor}A client’s DNS server sends a
-                request to a root domain server to find the
-                authoritative server for the com top-level domain.
+            b.  A client’s DNS server sends a request to a root domain
+                server to find the authoritative server for the com
+                top-level domain.
 
             c.  A client’s DNS server sends a request to the com
                 top-level domain server to find the authoritative server
                 for the adatum.com domain.
 
-            d.  []{#to_the .anchor}A client’s DNS server sends a request
-                to the adatum.com domain server to find the IP address
-                associated with the server name www.
+            d.  A client’s DNS server sends a request to the adatum.com
+                domain server to find the IP address associated with the
+                server name www.
 
-        5.  []{#modify_DNS .anchor}Which of the following contains the
-            controls used to modify DNS name caching?
+        5.  Which of the following contains the controls used to modify
+            DNS name caching?
 
-            a.  []{#Properties_sheet .anchor}The Forwarders tab of a
-                server’s Properties sheet
+            a.  The Forwarders tab of a server’s Properties sheet
 
-            b.  []{#of_Authority .anchor}***The Start of Authority (SOA)
-                tab of a zone’s Properties sheet***
+            b.  ***The Start of Authority (SOA) tab of a zone’s
+                Properties sheet***
 
-            c.  []{#Hints_tab .anchor}The Root Hints tab of a server’s
-                Properties sheet
+            c.  The Root Hints tab of a server’s Properties sheet
 
             d.  The New Zone Wizard
 
@@ -6141,8 +6097,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Forests
 
-        2.  []{#the_two .anchor}What are the two basic classes of Active
-            Directory objects?
+        2.  What are the two basic classes of Active Directory objects?
 
             a.  Resource
 
@@ -6158,33 +6113,29 @@ Lesson 1: Implementing Active Directory Federation Services
             a.  Administrators must manually supply information for
                 certain attributes.
 
-            b.  []{#other_objects .anchor}Every container object has, as
-                an attribute, a list of all the other objects it
-                contains.
+            b.  Every container object has, as an attribute, a list of
+                all the other objects it contains.
 
-            c.  []{#Leaf_objects .anchor}***Leaf objects do not contain
-                attributes.***
+            c.  ***Leaf objects do not contain attributes.***
 
-            d.  []{#creates_the .anchor}Active Directory automatically
-                creates the globally unique identifier (GUID).
+            d.  Active Directory automatically creates the globally
+                unique identifier (GUID).
 
-        4.  Which of the following is *not*[]{#domains_as .anchor} a
-            reason you should try to create as few domains as possible
-            when designing an Active Directory infrastructure?
+        4.  Which of the following is *not* a reason you should try to
+            create as few domains as possible when designing an Active
+            Directory infrastructure?
 
-            a.  []{#additional_domains .anchor}Creating additional
-                domains increases the administrative burden of the
-                installation.
+            a.  Creating additional domains increases the administrative
+                burden of the installation.
 
-            b.  []{#the_hardware .anchor}Each additional domain you
-                create increases the hardware costs of the Active
-                Directory deployment.
+            b.  Each additional domain you create increases the hardware
+                costs of the Active Directory deployment.
 
-            c.  []{#with_multiple .anchor}Some applications might have
-                problems working in a forest with multiple domains.
+            c.  Some applications might have problems working in a
+                forest with multiple domains.
 
-            d.  []{#from_Microsoft .anchor}***You must purchase a
-                license from Microsoft for each domain you create.***
+            d.  ***You must purchase a license from Microsoft for each
+                domain you create.***
 
         5.  Which of the following does an Active Directory client use
             to locate objects in another domain?
@@ -6212,8 +6163,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  NSLOOKUP
 
-        2.  []{#When_using .anchor}When using CSVDE, what is the first
-            line of the text file that uses proper attribute names?
+        2.  When using CSVDE, what is the first line of the text file
+            that uses proper attribute names?
 
             a.  Header row
 
@@ -6223,8 +6174,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Name record
 
-        3.  []{#following_utilities .anchor}Which of the following
-            utilities are used to perform an offline domain join?
+        3.  Which of the following utilities are used to perform an
+            offline domain join?
 
             a.  net join
 
@@ -6234,9 +6185,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  dconnect
 
-        4.  Which of the following is *not*[]{#in_Windows .anchor} a
-            type of user account that can be configured in Windows
-            Server 2012 R2?
+        4.  Which of the following is *not* a type of user account that
+            can be configured in Windows Server 2012 R2?
 
             a.  Local accounts
 
@@ -6276,19 +6226,18 @@ Lesson 1: Implementing Active Directory Federation Services
         2.  Which of the following is *not* a correct reason for
             creating an OU?
 
-            a.  []{#or_renamed .anchor}***To create a permanent
-                container that cannot be moved or renamed***
+            a.  ***To create a permanent container that cannot be moved
+                or renamed***
 
-            b.  []{#duplicate_the .anchor}To duplicate the divisions in
-                your organization
+            b.  To duplicate the divisions in your organization
 
             c.  To delegate administration tasks
 
-            d.  []{#to_a .anchor}To assign different Group Policy
-                settings to a specific group of users or computers
+            d.  To assign different Group Policy settings to a specific
+                group of users or computers
 
-        3.  []{#all_that .anchor}Which of the following group scope
-            modifications are never permitted? (Choose all that apply.)
+        3.  Which of the following group scope modifications are never
+            permitted? (Choose all that apply.)
 
             a.  Global to universal
 
@@ -6298,10 +6247,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Domain local to universal
 
-        4.  []{#the_Windows .anchor}In a domain running at the Windows
-            Server 2012 R2 domain functional level, which of the
-            following security principals can be members of a global
-            group? (Choose all that apply.)
+        4.  In a domain running at the Windows Server 2012 R2 domain
+            functional level, which of the following security principals
+            can be members of a global group? (Choose all that apply.)
 
             a.  ***Users***
 
@@ -6311,25 +6259,22 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Global groups***
 
-        5.  []{#attempting_to .anchor}You are attempting to delete a
-            global security group in the Active Directory Users And
-            Computers console but the console will not let you complete
-            the task. Which of the following could possibly be causes
-            for the failure? (Choose all that apply.)
+        5.  You are attempting to delete a global security group in the
+            Active Directory Users And Computers console but the console
+            will not let you complete the task. Which of the following
+            could possibly be causes for the failure? (Choose all that
+            apply.)
 
-            a.  []{#still_members .anchor}There are still members in the
-                group.
+            a.  There are still members in the group.
 
-            b.  []{#primary_group .anchor}***One of the group’s members
-                has the group set as its primary group.***
+            b.  ***One of the group’s members has the group set as its
+                primary group.***
 
-            c.  []{#You_do .anchor}***You do not have the proper
-                permissions for the container in which the group is
-                located.***
+            c.  ***You do not have the proper permissions for the
+                container in which the group is located.***
 
-            d.  []{#global_groups .anchor}You cannot delete global
-                groups from the Active Directory Users And Computers
-                console.
+            d.  You cannot delete global groups from the Active
+                Directory Users And Computers console.
 
 6.  410 Exam Reference Ch 6
     =======================
@@ -6348,10 +6293,10 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Security templates
 
-        2.  []{#system_with .anchor}Which of the following local GPOs
-            takes precedence on a system with multiple local GPOs?
+        2.  Which of the following local GPOs takes precedence on a
+            system with multiple local GPOs?
 
-            a.  []{#Local_Group .anchor}Local Group Policy
+            a.  Local Group Policy
 
             b.  Administrators Group Policy
 
@@ -6359,9 +6304,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***User-specific Group Policy***
 
-        3.  []{#following_techniques .anchor}Which of the following
-            techniques can be used to apply GPO settings to a specific
-            group of users in an OU?
+        3.  Which of the following techniques can be used to apply GPO
+            settings to a specific group of users in an OU?
 
             a.  GPO linking
 
@@ -6371,30 +6315,28 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Starter GPOs
 
-        4.  []{#of_a .anchor}Which of the following statements best
-            describes the function of a starter GPO?
+        4.  Which of the following statements best describes the
+            function of a starter GPO?
 
-            a.  []{#starter_GPO .anchor}***A starter GPO functions as a
-                template for the creation of new GPOs.***
+            a.  ***A starter GPO functions as a template for the
+                creation of new GPOs.***
 
-            b.  []{#GPO_applied .anchor}A starter GPO is the first GPO
-                applied by all Active Directory clients.
+            b.  A starter GPO is the first GPO applied by all Active
+                Directory clients.
 
             c.  A starter GPO uses a simplified interface for elementary
                 users.
 
-            d.  []{#the_default .anchor}A starter GPO contains all the
-                settings found in the default Domain Policy GPO.
+            d.  A starter GPO contains all the settings found in the
+                default Domain Policy GPO.
 
-        5.  []{#with_a .anchor}When you apply a GPO with a value of Not
-            Configured for a particular setting to a system on which
-            that same setting is disabled, what is the result?
+        5.  When you apply a GPO with a value of Not Configured for a
+            particular setting to a system on which that same setting is
+            disabled, what is the result?
 
-            a.  []{#remains_disabled .anchor}***The setting remains
-                disabled.***
+            a.  ***The setting remains disabled.***
 
-            b.  []{#is_changed .anchor}The setting is changed to Not
-                Configured.
+            b.  The setting is changed to Not Configured.
 
             c.  The setting is changed to Enabled.
 
@@ -6427,23 +6369,22 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Non-Administrators
 
-        3.  []{#are_used .anchor}Which of the following tools are used
-            to modify the settings in a security template?
+        3.  Which of the following tools are used to modify the settings
+            in a security template?
 
-            a.  []{#Users_and .anchor}Active Directory Users and
-                Computers
+            a.  Active Directory Users and Computers
 
             b.  ***Security Templates snap-in***
 
-            c.  []{#Object_Editor .anchor}Group Policy Object Editor
+            c.  Group Policy Object Editor
 
             d.  Group Policy Management console
 
-        4.  []{#their_special .anchor}The built-in local groups on a
-            server running Windows Server 2012 R2 receive their special
-            capabilities through which of the following mechanisms?
+        4.  The built-in local groups on a server running Windows Server
+            2012 R2 receive their special capabilities through which of
+            the following mechanisms?
 
-            a.  []{#Security_options .anchor}Security options
+            a.  Security options
 
             b.  Windows Firewall rules
 
@@ -6451,33 +6392,30 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***User rights***
 
-        5.  []{#deploying_the .anchor}After configuring and deploying
-            the Audit Directory Service Access policy, what must you do
-            before a computer running Windows Server 2012 R2 begins
-            logging Active Directory access attempts?
+        5.  After configuring and deploying the Audit Directory Service
+            Access policy, what must you do before a computer running
+            Windows Server 2012 R2 begins logging Active Directory
+            access attempts?
 
-            a.  []{#to_audit .anchor}***You must select the Active
-                Directory objects you want to audit by using the Active
-                Directory Users and Computer console.***
+            a.  ***You must select the Active Directory objects you want
+                to audit by using the Active Directory Users and
+                Computer console.***
 
-            b.  []{#must_wait .anchor}You must wait for the audit policy
-                settings to propagate to all the domain controllers on
-                the network.
+            b.  You must wait for the audit policy settings to propagate
+                to all the domain controllers on the network.
 
-            c.  []{#Service_Access .anchor}You must open the Audit
-                Directory Service Access Properties sheet and select all
-                the Active Directory objects you want to audit.
+            c.  You must open the Audit Directory Service Access
+                Properties sheet and select all the Active Directory
+                objects you want to audit.
 
-            d.  []{#of_every .anchor}You must add an underscore
-                character to the name of every Active Directory object
-                you want to audit.
+            d.  You must add an underscore character to the name of
+                every Active Directory object you want to audit.
 
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  Which of the following is *not*[]{#types_supported
-            .anchor} one of the software restriction rule types
-            supported by Windows Server 2012 R2?
+        1.  Which of the following is *not* one of the software
+            restriction rule types supported by Windows Server 2012 R2?
 
             a.  Hash rules
 
@@ -6487,10 +6425,10 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Firewall rules***
 
-        2.  []{#will_prevent .anchor}Which of the following strategies
-            for enforcing software restrictions will prevent any
-            executable from running except for those that have been
-            specifically allowed by an administrator?
+        2.  Which of the following strategies for enforcing software
+            restrictions will prevent any executable from running except
+            for those that have been specifically allowed by an
+            administrator?
 
             a.  Basic user
 
@@ -6500,24 +6438,24 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Unrestricted
 
-        3.  []{#conditions_will .anchor}Under which of the following
-            conditions will a hash rule in a software restriction policy
-            cease to function? (Choose all that apply.)
+        3.  Under which of the following conditions will a hash rule in
+            a software restriction policy cease to function? (Choose all
+            that apply.)
 
-            a.  []{#move_the .anchor}When you move the file on which the
-                hash is based to a different folder
+            a.  When you move the file on which the hash is based to a
+                different folder
 
-            b.  []{#update_the .anchor}***When you update the file on
-                which the hash is based to a new version***
+            b.  ***When you update the file on which the hash is based
+                to a new version***
 
-            c.  []{#modified_by .anchor}***When the file on which the
-                hash is based is modified by a virus***
+            c.  ***When the file on which the hash is based is modified
+                by a virus***
 
-            d.  []{#When_you .anchor}When you change the permissions for
-                the file on which the hash is based
+            d.  When you change the permissions for the file on which
+                the hash is based
 
-        4.  []{#following_rule .anchor}Which of the following rule types
-            applies to files with an .msi extension?
+        4.  Which of the following rule types applies to files with an
+            .msi extension?
 
             a.  Executable rules
 
@@ -6527,9 +6465,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Packaged app rules
 
-        5.  []{#before_Windows .anchor}Which of the following services
-            must you manually start before Windows can apply AppLocker
-            policies?
+        5.  Which of the following services must you manually start
+            before Windows can apply AppLocker policies?
 
             a.  ***Application Identity***
 
@@ -6537,8 +6474,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             c.  Credential Manager
 
-            d.  []{#Connectivity_Assistant .anchor}Network Connectivity
-                Assistant
+            d.  Network Connectivity Assistant
 
     4.  Lesson 4 Objective Overview
         ---------------------------
@@ -6554,9 +6490,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Port numbers***
 
-        2.  []{#security_rules .anchor}Connection security rules require
-            that network traffic allowed through the firewall use which
-            of the following security mechanisms?
+        2.  Connection security rules require that network traffic
+            allowed through the firewall use which of the following
+            security mechanisms?
 
             a.  EFS
 
@@ -6566,9 +6502,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Kerberos
 
-        3.  Which of the following actions *cannot*[]{#control_panel
-            .anchor} be performed from the Windows Firewall control
-            panel?
+        3.  Which of the following actions *cannot* be performed from
+            the Windows Firewall control panel?
 
             a.  Allowing an application through the firewall in all
                 three profiles
@@ -6576,16 +6511,13 @@ Lesson 1: Implementing Active Directory Federation Services
             b.  Blocking all incoming connections for any of the three
                 profiles
 
-            c.  []{#three_profiles .anchor}***Creating firewall
-                exceptions based on port numbers for all three
-                profiles***
+            c.  ***Creating firewall exceptions based on port numbers
+                for all three profiles***
 
-            d.  []{#all_three .anchor}Turning Windows Firewall off for
-                all three profiles
+            d.  Turning Windows Firewall off for all three profiles
 
-        4.  Which of the following tools *cannot*[]{#disable_the
-            .anchor} enable and disable the Network Discovery firewall
-            rules?
+        4.  Which of the following tools *cannot* enable and disable the
+            Network Discovery firewall rules?
 
             a.  File Explorer
 
@@ -6595,24 +6527,21 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Allowed Apps dialog box
 
-        5.  []{#that_apply .anchor}Which of the following statements
-            about Windows Firewall are true? (Choose all that apply.)
+        5.  Which of the following statements about Windows Firewall are
+            true? (Choose all that apply.)
 
-            a.  []{#Applying_firewall .anchor}Applying firewall rules by
-                using Group Policy overwrites all the firewall rules on
-                the target computer.
+            a.  Applying firewall rules by using Group Policy overwrites
+                all the firewall rules on the target computer.
 
-            b.  []{#by_using .anchor}***Applying firewall rules by using
-                Group Policy combines the newly deployed rules with the
-                ones already there.***
+            b.  ***Applying firewall rules by using Group Policy
+                combines the newly deployed rules with the ones already
+                there.***
 
-            c.  []{#the_rules .anchor}***Importing firewall rules saved
-                from another computer overwrites all the rules on the
-                target system.***
+            c.  ***Importing firewall rules saved from another computer
+                overwrites all the rules on the target system.***
 
-            d.  []{#firewall_rules .anchor}Importing firewall rules
-                saved from another computer combines both sets of
-                settings.
+            d.  Importing firewall rules saved from another computer
+                combines both sets of settings.
 
 7.  411 Exam Reference Ch 1
     =======================
@@ -6620,9 +6549,9 @@ Lesson 1: Implementing Active Directory Federation Services
     1.  Lesson 1 Objective Overview
         ---------------------------
 
-        1.  []{#Deployment_Services .anchor}Which of the following are
-            required to install the Windows Deployment Services role on
-            Windows Server 2012 R2? (Choose all that apply.)
+        1.  Which of the following are required to install the Windows
+            Deployment Services role on Windows Server 2012 R2? (Choose
+            all that apply.)
 
             a.  ***An active DHCP server***
 
@@ -6632,9 +6561,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  An AD DS server
 
-        2.  []{#custom_image .anchor}Which types of images are required
-            to create a custom image from a template computer? (Choose
-            all that apply.)
+        2.  Which types of images are required to create a custom image
+            from a template computer? (Choose all that apply.)
 
             a.  Boot images
 
@@ -6644,9 +6572,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Discover images
 
-        3.  []{#Windows_PowerShell .anchor}Which Windows PowerShell
-            cmdlet is used to update an offline boot file with a new
-            driver?
+        3.  Which Windows PowerShell cmdlet is used to update an offline
+            boot file with a new driver?
 
             a.  Import-WdsBootImage
 
@@ -6659,9 +6586,9 @@ Lesson 1: Implementing Active Directory Federation Services
     2.  Lesson 2 Objective Overview
         ---------------------------
 
-        1.  []{#to_install .anchor}What is the Windows PowerShell
-            command to install the Windows Server Update Services role
-            and supporting features for use with the WID database?
+        1.  What is the Windows PowerShell command to install the
+            Windows Server Update Services role and supporting features
+            for use with the WID database?
 
             a.  Install-WindowsFeature -Name UpdateServices
                 -IncludeAllSubFeatures
@@ -6676,8 +6603,8 @@ Lesson 1: Implementing Active Directory Federation Services
                 UpdateServices,UpdateServices -DB
                 -IncludeManagementTools
 
-        2.  []{#WSUS_groups .anchor}What are the required GPOs to assign
-            computers to WSUS groups? (Choose all that apply.)
+        2.  What are the required GPOs to assign computers to WSUS
+            groups? (Choose all that apply.)
 
             a.  ***Configure Automatic Updates***
 
@@ -6687,9 +6614,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Enable client-side targeting***
 
-        3.  []{#the_required .anchor}What are the required post
-            installation commands to configure WSUS to connect to a SQL
-            Server database? (Choose all that apply.)
+        3.  What are the required post installation commands to
+            configure WSUS to connect to a SQL Server database? (Choose
+            all that apply.)
 
             a.  wsusutil postinstall content\_dir=D:\\WSUS
 
@@ -6724,9 +6651,9 @@ Lesson 1: Implementing Active Directory Federation Services
                 Enter-PSSession. Run the command perfmon /res in the
                 remote PSSession.
 
-        2.  []{#the_Hyper .anchor}What Windows PowerShell commands can
-            you use to measure the Hyper-V VHD resource usage of the VM
-            trey-wms-11? (Choose all that apply.)
+        2.  What Windows PowerShell commands can you use to measure the
+            Hyper-V VHD resource usage of the VM trey-wms-11? (Choose
+            all that apply.)
 
             a.  Enable-VMResourceMonitoring -VmName trey-wms-11
 
@@ -6746,8 +6673,8 @@ Lesson 1: Implementing Active Directory Federation Services
     1.  Lesson 1 Objective Overview
         ---------------------------
 
-        1.  []{#run_to .anchor}What commands do you need to run to
-            enable DFS-N and DFS-R on the local server?
+        1.  What commands do you need to run to enable DFS-N and DFS-R
+            on the local server?
 
             a.  Add-WindowsPackage -online -PackagePath DFS
 
@@ -6759,10 +6686,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Add-WindowsFeature -Name DFS -IncludeAllSubFeatures
 
-        2.  []{#your_Windows .anchor}You need to enable remote
-            management of DFS from your Windows 8 workstation. What
-            commands do you need to run? (Include only the minimum that
-            apply.)
+        2.  You need to enable remote management of DFS from your
+            Windows 8 workstation. What commands do you need to run?
+            (Include only the minimum that apply.)
 
             a.  ***Install-WindowsFeature -name RSAT-DFS-Mgmt-Con***
 
@@ -6776,12 +6702,11 @@ Lesson 1: Implementing Active Directory Federation Services
     2.  Lesson 2 Objective Overview
         ---------------------------
 
-        1.  []{#to_easily .anchor}The company provides a public transfer
-            share to allow users to easily share files. Without using
-            excess privilege, you have to ensure that all files are
-            deleted after they have been on the server for 3 days. What
-            PowerShell command should you run as part of the file
-            management task?
+        1.  The company provides a public transfer share to allow users
+            to easily share files. Without using excess privilege, you
+            have to ensure that all files are deleted after they have
+            been on the server for 3 days. What PowerShell command
+            should you run as part of the file management task?
 
             a.  get-childitem -recurse  | where-object
                 {\$\_.CreationTime -ge (get-date).Add(-3)} | remove-item
@@ -6797,8 +6722,8 @@ Lesson 1: Implementing Active Directory Federation Services
                 {\$\_.CreationTime -le (get-date).AddDays(-3)} |
                 remove-item***
 
-        2.  []{#In_the .anchor}In the scenario of question 1, what
-            command security should the script run as?
+        2.  In the scenario of question 1, what command security should
+            the script run as?
 
             a.  ***Local Service***
 
@@ -6808,13 +6733,13 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Protected Users
 
-        3.  []{#allow_users .anchor}You need to allow users to store
-            files for sharing with other users. These files are stored
-            on the D:\\UserShare folder of SRV2, which is shared as
-            \\\\srv2\\share. Each user’s use of the space is limited to
-            250 MB. When users reach 200 MB, they should be warned via
-            email and the Administrator account should also be notified
-            by email. How can you implement this?
+        3.  You need to allow users to store files for sharing with
+            other users. These files are stored on the D:\\UserShare
+            folder of SRV2, which is shared as \\\\srv2\\share. Each
+            user’s use of the space is limited to 250 MB. When users
+            reach 200 MB, they should be warned via email and the
+            Administrator account should also be notified by email. How
+            can you implement this?
 
             a.  Create an FSRM quota on the D:\\UserShare folder of SRV2
                 based on the Monitor 500 MB Share template, but change
@@ -6835,9 +6760,8 @@ Lesson 1: Implementing Active Directory Federation Services
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  []{#GPOs_do .anchor}To which GPOs do you need to link to
-            ensure that all BitLocker passwords can be backed up to
-            Active Directory?
+        1.  To which GPOs do you need to link to ensure that all
+            BitLocker passwords can be backed up to Active Directory?
 
             a.  Default Domain Policy
 
@@ -6847,9 +6771,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  A new BitLocker GPO linked to the Domain Users folder
 
-        2.  []{#Encryption_feature .anchor}What features are required
-            and installed for the BitLocker Drive Encryption feature?
-            (Choose all that apply.)
+        2.  What features are required and installed for the BitLocker
+            Drive Encryption feature? (Choose all that apply.)
 
             a.  ***BitLocker Drive Encryption***
 
@@ -6864,12 +6787,12 @@ Lesson 1: Implementing Active Directory Federation Services
 
             f.  BitLocker Network Unlock
 
-        3.  []{#BitLocker_on .anchor}Company policy requires that all
-            servers be encrypted with BitLocker on all fixed internal
-            drives and volumes. Several existing servers do not support
-            a TPM. You created a special OU for these servers and linked
-            a GPO to the OU. What policy do you need to configure to
-            enable BitLocker encryption for the servers?
+        3.  Company policy requires that all servers be encrypted with
+            BitLocker on all fixed internal drives and volumes. Several
+            existing servers do not support a TPM. You created a special
+            OU for these servers and linked a GPO to the OU. What policy
+            do you need to configure to enable BitLocker encryption for
+            the servers?
 
             a.  Choose Drive Encryption Method And Cipher Strength
 
@@ -6885,16 +6808,15 @@ Lesson 1: Implementing Active Directory Federation Services
     4.  Lesson 4 Objective Overview
         ---------------------------
 
-        1.  []{#You_monitor .anchor}You monitor changes to distribution
-            groups and you don’t want to get events from other account
-            management events because it would tend to hide the specific
-            events you’re looking for in the high noise levels. What
-            policy do you need to set and what setting should it have?
+        1.  You monitor changes to distribution groups and you don’t
+            want to get events from other account management events
+            because it would tend to hide the specific events you’re
+            looking for in the high noise levels. What policy do you
+            need to set and what setting should it have?
 
-            a.  []{#Account_Management .anchor}Set the Computer
-                Configuration\\Policies\\Security Settings\\Local
-                Policies\\Audit Policy\\Audit Account Management policy
-                to Enabled, Audit Success.
+            a.  Set the Computer Configuration\\Policies\\Security
+                Settings\\Local Policies\\Audit Policy\\Audit Account
+                Management policy to Enabled, Audit Success.
 
             b.  Set the Computer Configuration\\Policies\\Security
                 Settings\\Local Policies\\Audit Policy\\Audit Account
@@ -6909,8 +6831,8 @@ Lesson 1: Implementing Active Directory Federation Services
                 Settings\\Local Policies\\Audit Policy\\Audit Account
                 Management policy to Enabled, Audit Failure.
 
-        2.  []{#need_to .anchor}What Group Policy setting do you need to
-            enable in order to enable auditing of logoff events?
+        2.  What Group Policy setting do you need to enable in order to
+            enable auditing of logoff events?
 
             a.  ***Computer Configuration\\Policies\\Windows
                 Settings\\Security Settings\\Advanced Audit
@@ -6956,11 +6878,11 @@ Lesson 1: Implementing Active Directory Federation Services
     1.  Lesson 1 Objective Overview
         ---------------------------
 
-        1.  []{#primary_forward .anchor}You need to create a new primary
-            forward lookup zone for Engineering.TreyReseach.net. The
-            zone should have its data stored in Active Directory and be
-            available to all domain controllers in the domain. What
-            Windows PowerShell commands would you use?
+        1.  You need to create a new primary forward lookup zone for
+            Engineering.TreyReseach.net. The zone should have its data
+            stored in Active Directory and be available to all domain
+            controllers in the domain. What Windows PowerShell commands
+            would you use?
 
             a.  Add-DnsServerPrimaryZone -Name
                 ‘Engineering.TreyResearch.net’ -zone
@@ -6976,11 +6898,11 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Add-DnsServerPrimaryZone -Name
                 ‘Engineering.TreyResearch.net’ -replication Forest
 
-        2.  []{#zone_for .anchor}You need to create a new secondary
-            reverse lookup zone for the TreyResearch.net, which uses
-            192.168.10.0 - 192.168.10.255 for network addresses. The
-            Primary zone is hosted by trey-dc-02 at 192.168.10.2. What
-            Windows PowerShell commands would you use?
+        2.  You need to create a new secondary reverse lookup zone for
+            the TreyResearch.net, which uses 192.168.10.0 -
+            192.168.10.255 for network addresses. The Primary zone is
+            hosted by trey-dc-02 at 192.168.10.2. What Windows
+            PowerShell commands would you use?
 
             a.  Add-DnsSecondaryZone -Name ‘TreyResearch.net’ -NetworkID
                 “192.168.10.0/24” -Replication Domain -Master
@@ -6996,13 +6918,13 @@ Lesson 1: Implementing Active Directory Federation Services
                 -Master “trey-dc-02.treyresearch.net” -Zone
                 “10.168.192.dns”
 
-        3.  []{#for_Trey .anchor}You are the enterprise administrator
-            for Trey Research. Your domain name is TreyResearch.net, and
-            your IPv4 address range is 192.168.10.0-192.168.10.255. Your
-            IPv6 address range is 2001:db8:10::/64. The primary domain
-            controller for TreyResearch.net is trey-dc-02 and it hosts
-            the Active Directory-integrated DNS. The Engineering
-            department is migrating to use a new child domain,
+        3.  You are the enterprise administrator for Trey Research. Your
+            domain name is TreyResearch.net, and your IPv4 address range
+            is 192.168.10.0-192.168.10.255. Your IPv6 address range is
+            2001:db8:10::/64. The primary domain controller for
+            TreyResearch.net is trey-dc-02 and it hosts the Active
+            Directory-integrated DNS. The Engineering department is
+            migrating to use a new child domain,
             Engineering.TreyResearch.net, with a domain controller of
             trey-engdc-8. What commands would you use to delegate this
             domain?
@@ -7045,9 +6967,9 @@ Lesson 1: Implementing Active Directory Federation Services
     2.  Lesson 2 Objective Overview
         ---------------------------
 
-        1.  []{#do_you .anchor}Which records do you need to create to
-            support a new application server that uses both IPv4 and
-            IPv6? (Choose all that apply.)
+        1.  Which records do you need to create to support a new
+            application server that uses both IPv4 and IPv6? (Choose all
+            that apply.)
 
             a.  MX
 
@@ -7061,9 +6983,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             f.  CNAME
 
-        2.  []{#server_record .anchor}What command should you use to
-            create a new name server record for ns13.treyresearch.net at
-            192.168.10.13?
+        2.  What command should you use to create a new name server
+            record for ns13.treyresearch.net at 192.168.10.13?
 
             a.  ***Add-DnsServerResourceRecord -ZoneName
                 “treyresearch.net” -NS -Name “.” -NameServer
@@ -7078,8 +6999,7 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Add-DnsServerResourceRecord -ZoneName “treyresearch.net”
                 -NS -Name “ns13.treyresearch.net” -NameServer “.”
 
-        3.  []{#How_do .anchor}How do you update the SOA resource
-            record?
+        3.  How do you update the SOA resource record?
 
             a.  Use the Set-DnsServerResourceRecordSOA cmdlet
 
@@ -7092,8 +7012,8 @@ Lesson 1: Implementing Active Directory Federation Services
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  []{#command_do .anchor}What command do you use to
-            install *only* VPN and NAT and their management tools?
+        1.  What command do you use to install *only* VPN and NAT and
+            their management tools?
 
             a.  Enable-WindowsOptionalFeature -FeatureName RRAS -online
 
@@ -7105,10 +7025,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Add-WindowsFeature -Name RRAS -IncludeManagementTools
 
-        2.  []{#only_support .anchor}You need to configure VPN to only
-            support clients using the SSTP protocol. What changes do you
-            need to make to the default VPN configuration in Windows
-            Server 2012 R2?
+        2.  You need to configure VPN to only support clients using the
+            SSTP protocol. What changes do you need to make to the
+            default VPN configuration in Windows Server 2012 R2?
 
             a.  Add the WAN Miniport for SSTP and set the maximum number
                 of ports. Restart the RemoteAccess service.
@@ -7122,11 +7041,11 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Enable demand-dial for the WAN Miniport (PPPOE).
 
-        3.  []{#you_use .anchor}You use DirectAccess for all Windows 8
-            and later remote clients, but you use VPN to support Windows
-            7 clients. You need to configure VPN to use IP addresses
-            controlled by the Remote Access server. What settings do you
-            need to make? (Choose all that apply.)
+        3.  You use DirectAccess for all Windows 8 and later remote
+            clients, but you use VPN to support Windows 7 clients. You
+            need to configure VPN to use IP addresses controlled by the
+            Remote Access server. What settings do you need to make?
+            (Choose all that apply.)
 
             a.  In the Routing And Remote Access console, select Assign
                 Addresses Automatically.
@@ -7150,15 +7069,14 @@ Lesson 1: Implementing Active Directory Federation Services
     4.  Lesson 4 Objective Overview
         ---------------------------
 
-        1.  []{#and_initial .anchor}You are the network administrator
-            for TreyResearch.net. You have deployed DirectAccess, and
-            initial acceptance has been good, but now some users report
-            that they cannot connect to the corporate network since the
-            rollout, but have used VPN as a fallback. Other users report
-            that they can connect via DirectAccess without problems.
-            Upon investigation, all users reporting that they cannot
-            connect are on desktop computers. What are the possible
-            causes? (Choose all that apply.)
+        1.  You are the network administrator for TreyResearch.net. You
+            have deployed DirectAccess, and initial acceptance has been
+            good, but now some users report that they cannot connect to
+            the corporate network since the rollout, but have used VPN
+            as a fallback. Other users report that they can connect via
+            DirectAccess without problems. Upon investigation, all users
+            reporting that they cannot connect are on desktop computers.
+            What are the possible causes? (Choose all that apply.)
 
             a.  ***During initial setup, you configured DirectAccess
                 with the Quick Start Wizard.***
@@ -7169,26 +7087,25 @@ Lesson 1: Implementing Active Directory Federation Services
                 Computers Only check boxes in the DirectAccess Client
                 Setup Wizard.
 
-            c.  []{#Setup_Wizard .anchor}During initial setup, you
-                configured DirectAccess with the Remote Access Setup
-                Wizard, and added the Mobile Computers Security Group
-                and the Home Computers Security Group to the Enabled For
-                DirectAccess field.
+            c.  During initial setup, you configured DirectAccess with
+                the Remote Access Setup Wizard, and added the Mobile
+                Computers Security Group and the Home Computers Security
+                Group to the Enabled For DirectAccess field.
 
             d.  All of the above.
 
             e.  None of the above.
 
-        2.  []{#for_TreyResearch .anchor}You are the network
-            administrator for TreyResearch.net. Your current network
-            topology has a single-edge device that performs firewall and
-            NAT functions. All client computers run Windows 8.1 and use
-            VPN for remote access. Your ISP has provided you with a
-            single, static public IP address. You have been asked to
-            deploy DirectAccess for remote access, and a server has been
-            identified for the project. The server has a single network
-            adapter. What are the minimum steps you need to do before
-            you can enable DirectAccess? (Choose all that are required.)
+        2.  You are the network administrator for TreyResearch.net. Your
+            current network topology has a single-edge device that
+            performs firewall and NAT functions. All client computers
+            run Windows 8.1 and use VPN for remote access. Your ISP has
+            provided you with a single, static public IP address. You
+            have been asked to deploy DirectAccess for remote access,
+            and a server has been identified for the project. The server
+            has a single network adapter. What are the minimum steps you
+            need to do before you can enable DirectAccess? (Choose all
+            that are required.)
 
             a.  Purchase and install an additional network adapter for
                 the identified server.
@@ -7207,12 +7124,12 @@ Lesson 1: Implementing Active Directory Federation Services
 
             g.  None of the above.
 
-        3.  []{#deployment_of .anchor}You are the network administrator
-            for TreyResearch.net. After an initial test deployment of
-            DirectAccess, which reported no issues, you have now
-            deployed DirectAccess across all remote users. Users are
-            reporting a significant slowing of Internet access. What are
-            the possible causes? (Choose all that apply.)
+        3.  You are the network administrator for TreyResearch.net.
+            After an initial test deployment of DirectAccess, which
+            reported no issues, you have now deployed DirectAccess
+            across all remote users. Users are reporting a significant
+            slowing of Internet access. What are the possible causes?
+            (Choose all that apply.)
 
             a.  During initial setup, you configured DirectAccess with
                 the Quick Start Wizard.
@@ -7233,9 +7150,9 @@ Lesson 1: Implementing Active Directory Federation Services
     1.  Lesson 1 Objective Overview
         ---------------------------
 
-        1.  []{#services_are .anchor}When installing NPS as a RADIUS
-            proxy, which NPS role services are required in Windows
-            Server 2012 R2? (Choose all that apply.)
+        1.  When installing NPS as a RADIUS proxy, which NPS role
+            services are required in Windows Server 2012 R2? (Choose all
+            that apply.)
 
             a.  ***NPS***
 
@@ -7245,9 +7162,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Routing and Remote access service (RRAS)
 
-        2.  []{#used_for .anchor}Certificates with which purposes can be
-            used for mutual authentication of NPS and client computers?
-            (Choose all that apply.)
+        2.  Certificates with which purposes can be used for mutual
+            authentication of NPS and client computers? (Choose all that
+            apply.)
 
             a.  All Purpose certificates
 
@@ -7264,9 +7181,9 @@ Lesson 1: Implementing Active Directory Federation Services
                 connection requests locally and notifying the RADIUS
                 server group that the request should have access.
 
-            b.  []{#as_a .anchor}It acts as a member of a RADIUS server
-                group that accepts requests from RADIUS clients and
-                authenticates them.
+            b.  It acts as a member of a RADIUS server group that
+                accepts requests from RADIUS clients and authenticates
+                them.
 
             c.  It acts as a member of a RADIUS server group that
                 accepts authenticated requests from RADIUS clients and
@@ -7290,20 +7207,20 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  MS Service Class
 
-        2.  []{#RADIUS_proxy .anchor}You have a Windows Server 2012 R2
-            server (RAD1) acting as a RADIUS proxy and a RADIUS server
-            group with a single Windows Server 2012 server (RAD2) as a
-            RADIUS server in it. You need to configure a second RADIUS
-            server to distribute the load. What should you do?
+        2.  You have a Windows Server 2012 R2 server (RAD1) acting as a
+            RADIUS proxy and a RADIUS server group with a single Windows
+            Server 2012 server (RAD2) as a RADIUS server in it. You need
+            to configure a second RADIUS server to distribute the load.
+            What should you do?
 
             a.  Deploy a second Windows Server 2012 R2 server (RAD3) and
                 install the Routing and Remote access service (RRAS) on
                 it. Export the configuration from RAD1 and import it to
                 RAD3.
 
-            b.  []{#second_Windows .anchor}Deploy a second Windows
-                Server 2012 server (RAD3) and install RRAS on it. Export
-                the configuration from RAD2 and import it to RAD3.
+            b.  Deploy a second Windows Server 2012 server (RAD3) and
+                install RRAS on it. Export the configuration from RAD2
+                and import it to RAD3.
 
             c.  ***Deploy a second Windows Server 2012 R2 server (RAD3)
                 and install NPS Server on it. Export the configuration
@@ -7313,10 +7230,10 @@ Lesson 1: Implementing Active Directory Federation Services
                 install NPS on it. Export the configuration from RAD1
                 and import it to RAD3.
 
-        3.  []{#You_need .anchor}You need to improve the security of
-            your remote access and want to limit the protocols that are
-            used to connect to the RADIUS server. What condition could
-            you use to limit the protocols?
+        3.  You need to improve the security of your remote access and
+            want to limit the protocols that are used to connect to the
+            RADIUS server. What condition could you use to limit the
+            protocols?
 
             a.  ***Use a Tunnel Type condition in the connection request
                 policy.***
@@ -7333,27 +7250,25 @@ Lesson 1: Implementing Active Directory Federation Services
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  []{#on_vacation .anchor}User1 has been on vacation for a
-            week, with his laptop turned off. When he attempted to
-            connect via modem to the Remote Access dial-in bank on day
-            four of the vacation, his dial-in attempt was rejected.
-            However, when he returns home three days later, he initially
-            has a problem when he logs on to his laptop and attempts to
-            connect to the network remotely. When he returns to the
-            office, all is well, although his initial logon seems rather
-            slow. When he goes home that night, he is again able to
-            connect to the network. User1 is authorized for dial-up, and
-            NAP policies are in place for both internal network
-            connections and remote connections. What was a possible
-            cause of the problem?
+        1.  User1 has been on vacation for a week, with his laptop
+            turned off. When he attempted to connect via modem to the
+            Remote Access dial-in bank on day four of the vacation, his
+            dial-in attempt was rejected. However, when he returns home
+            three days later, he initially has a problem when he logs on
+            to his laptop and attempts to connect to the network
+            remotely. When he returns to the office, all is well,
+            although his initial logon seems rather slow. When he goes
+            home that night, he is again able to connect to the network.
+            User1 is authorized for dial-up, and NAP policies are in
+            place for both internal network connections and remote
+            connections. What was a possible cause of the problem?
 
             a.  The connection request policy for dial-up connections
                 has a condition on the Called Station ID that limits
                 callers to the local area code.
 
-            b.  []{#client_SHV .anchor}***The health policy for dial-up
-                and VPN access requires that all client SHV checks must
-                pass.***
+            b.  ***The health policy for dial-up and VPN access requires
+                that all client SHV checks must pass.***
 
             c.  The health policy for internal network access requires
                 that all client SHV checks must pass.
@@ -7361,8 +7276,8 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  The network connection policy for dial-up connections is
                 set to enable access.
 
-        2.  []{#client_computers .anchor}What configuration changes do
-            you need to make on client computers to support NAP?
+        2.  What configuration changes do you need to make on client
+            computers to support NAP?
 
             a.  Set the Network Access Protection Agent to Automatic.
 
@@ -7379,9 +7294,9 @@ Lesson 1: Implementing Active Directory Federation Services
 
             g.  ***All of the above.***
 
-        3.  []{#policy_to .anchor}When you configure NPS for DHCP, you
-            configure the network policy to enforce the health policy.
-            What settings do you need make in the network policy?
+        3.  When you configure NPS for DHCP, you configure the network
+            policy to enforce the health policy. What settings do you
+            need make in the network policy?
 
             a.  If the client SHV fails one or more SHV checks, deny
                 access.
@@ -7440,9 +7355,8 @@ Lesson 1: Implementing Active Directory Federation Services
     2.  Lesson 2 Objective Overview
         ---------------------------
 
-        1.  []{#prepare_a .anchor}What commands should you use to
-            prepare a clone of domain controller trey-dc-03? (Choose all
-            that apply.)
+        1.  What commands should you use to prepare a clone of domain
+            controller trey-dc-03? (Choose all that apply.)
 
             a.  ***Get-ADDCCloningExcludedApplicationList
                 -GenerateXML***
@@ -7459,12 +7373,11 @@ Lesson 1: Implementing Active Directory Federation Services
 
             e.  ***New-ADDCCloneConfigFile***
 
-        2.  []{#transfer_the .anchor}Server trey-dc-02 hosts all the
-            forest-wide operations master roles. You want to transfer
-            the roles to server trey-dc-04, and are logged in to
-            trey-dc-04 with an account that is a member of the Schema
-            Admins group. What commands can you use to transfer the
-            roles?
+        2.  Server trey-dc-02 hosts all the forest-wide operations
+            master roles. You want to transfer the roles to server
+            trey-dc-04, and are logged in to trey-dc-04 with an account
+            that is a member of the Schema Admins group. What commands
+            can you use to transfer the roles?
 
             a.  Move-ADDirectoryServerOperationMasterRole -Identity
                 trey-dc-02 -OperationMasterRole
@@ -7482,8 +7395,7 @@ Lesson 1: Implementing Active Directory Federation Services
                 trey-dc-04 -OperationMasterRole
                 SchemaMaster,InfrastructureMaster
 
-        3.  []{#to_stage .anchor}What command can you use to stage an
-            RODC?
+        3.  What command can you use to stage an RODC?
 
             a.  New-ADDSDomainControllerAccount
 
@@ -7496,20 +7408,19 @@ Lesson 1: Implementing Active Directory Federation Services
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  []{#What_command .anchor}What command or tool do you use to
-            enable the Active Directory Recycle Bin?
+        1.  What command or tool do you use to enable the Active
+            Directory Recycle Bin?
 
             a.  Ntdsutil.exe
 
-            b.  []{#and_Computers .anchor}Active Directory Users and
-                Computers
+            b.  Active Directory Users and Computers
 
             c.  Active Directory Sites and Services
 
             d.  ***Enable-ADOptionalFeature***
 
-        2.  []{#and_mount .anchor}What tools or commands do you use to
-            create and mount an Active Directory snapshot? (Choose two.)
+        2.  What tools or commands do you use to create and mount an
+            Active Directory snapshot? (Choose two.)
 
             a.  ***ntdsutil snapshot “activate instance ntds” create
                 “list all” quit quit***
@@ -7523,9 +7434,9 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Ntdsutil snapshot “activate instance ntds” “mount 2”
                 quit quit
 
-        3.  []{#in_Active .anchor}You accidentally delete a user account
-            in Active Directory. What can you do to correct the problem
-            and provide the user full access to their files?
+        3.  You accidentally delete a user account in Active Directory.
+            What can you do to correct the problem and provide the user
+            full access to their files?
 
             a.  Do a non-authoritative restore of Active Directory.
 
@@ -7540,8 +7451,8 @@ Lesson 1: Implementing Active Directory Federation Services
     4.  Lesson 4 Objective Overview
         ---------------------------
 
-        1.  []{#or_tools .anchor}What commands or tools would you use to
-            set a default lockout setting?
+        1.  What commands or tools would you use to set a default
+            lockout setting?
 
             a.  From an elevated prompt on the PDC Emulator,
                 type **GPEdit.msc**.
@@ -7555,10 +7466,9 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  From an elevated Windows PowerShell prompt, run
                 Set-ADAccountExpiration.
 
-        2.  []{#You_suspect .anchor}Some users are reporting that they
-            can’t log on to the domain. You suspect a Kerberos issue.
-            What settings can you change to temporarily alleviate the
-            problem?
+        2.  Some users are reporting that they can’t log on to the
+            domain. You suspect a Kerberos issue. What settings can you
+            change to temporarily alleviate the problem?
 
             a.  ***Set the Default Domain Policy for Maximum Tolerance
                 For Computer Clock Synchronization to 10.***
@@ -7573,14 +7483,13 @@ Lesson 1: Implementing Active Directory Federation Services
                 Settings\\Security Settings\\Account Policies\\Account
                 Lockout Policy\\Lockout Threshold to 0.
 
-        3.  []{#run_with .anchor}Remote sales users complain that they
-            frequently need to run with a local account on their
-            laptops, but they are still subject to the Domain Password
-            Policy that requires them to change their password every 40
-            days. Upon consultation with management, there is agreement
-            that a 70-day policy for salespeople is appropriate. How
-            would you implement this new policy? (Choose all that
-            apply.)
+        3.  Remote sales users complain that they frequently need to run
+            with a local account on their laptops, but they are still
+            subject to the Domain Password Policy that requires them to
+            change their password every 40 days. Upon consultation with
+            management, there is agreement that a 70-day policy for
+            salespeople is appropriate. How would you implement this new
+            policy? (Choose all that apply.)
 
             a.  Create a Sales OU and then use the
                 Set-ADAccountExpiration cmdlet.
@@ -7601,11 +7510,11 @@ Lesson 1: Implementing Active Directory Federation Services
     1.  Lesson 1 Objective Overview
         ---------------------------
 
-        1.  []{#to_configure .anchor}You need to configure training lab
-            computers to allow users to log on with their own accounts,
-            but still provide a consistent look and experience for the
-            lab, regardless of departments the users are normally in.
-            What Group Policy settings should you use?
+        1.  You need to configure training lab computers to allow users
+            to log on with their own accounts, but still provide a
+            consistent look and experience for the lab, regardless of
+            departments the users are normally in. What Group Policy
+            settings should you use?
 
             a.  Set Computer Configuration/Policies/Administrative
                 Templates/System/Group Policy/Configure User Group
@@ -7643,12 +7552,11 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  ***Invoke-GPUpdate -Computer Trey-Srv-12 -Target
                 Computer***
 
-        3.  []{#are_the .anchor}You are the network administrator for
-            TreyResearch.net. You have to enforce special policies on
-            the Engineering OU in which the users work with highly
-            sensitive information while ensuring that the Domain
-            Password Policy is used. What Group Policy settings should
-            you use?
+        3.  You are the network administrator for TreyResearch.net. You
+            have to enforce special policies on the Engineering OU in
+            which the users work with highly sensitive information while
+            ensuring that the Domain Password Policy is used. What Group
+            Policy settings should you use?
 
             a.  ***Configure Block Inheritance on the OU and set the
                 Domain Password Policy to Enforced.***
@@ -7691,10 +7599,9 @@ Lesson 1: Implementing Active Directory Federation Services
                 \\\\Trey-Srv-12\\Software\\AbcInstall.msi as the
                 Package.***
 
-        2.  []{#that_is .anchor}You need to limit the HR Device Use
-            policy that is linked to the Domain. The policy should apply
-            only to HR Users who are part of the HR OU. What should you
-            do?
+        2.  You need to limit the HR Device Use policy that is linked to
+            the Domain. The policy should apply only to HR Users who are
+            part of the HR OU. What should you do?
 
             a.  Use the Set-GPPermission cmdlet with the -Replace and
                 -Target parameters to limit the GPO to HR Users only.
@@ -7727,12 +7634,11 @@ Lesson 1: Implementing Active Directory Federation Services
     3.  Lesson 3 Objective Overview
         ---------------------------
 
-        1.  []{#the_behavior .anchor}After thorough troubleshooting of
-            problems with the behavior of client computers in the
-            TreyResearch.net domain, you determine that the Default
-            Domain Policy has significant issues and the best way to
-            correct the problems is to restore the default GPO. What
-            command should you use?
+        1.  After thorough troubleshooting of problems with the behavior
+            of client computers in the TreyResearch.net domain, you
+            determine that the Default Domain Policy has significant
+            issues and the best way to correct the problems is to
+            restore the default GPO. What command should you use?
 
             a.  Invoke-GPO | New-GPO -Name “Default Domain Policy”
 
@@ -7743,9 +7649,8 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Dcgpofix /ignoreschema /target DC
 
-        2.  []{#the_most .anchor}You need to restore the Client Backup
-            GPO from the most recent backup. What command should you
-            use?
+        2.  You need to restore the Client Backup GPO from the most
+            recent backup. What command should you use?
 
             a.  Restore-GPO -Name “Client Backup GPO”
 
@@ -7758,14 +7663,13 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Restore-GPO -Name “Client Backup GPO” -Path
                 \\\\Server\\BackupGPOs
 
-        3.  []{#settings_from .anchor}You want to copy the settings from
-            the TreyResearch.net “Client Backup GPO” to the
-            “ClientBackupGPO” in the TailspinToys.com domain. What
-            command should you use?
+        3.  You want to copy the settings from the TreyResearch.net
+            “Client Backup GPO” to the “ClientBackupGPO” in the
+            TailspinToys.com domain. What command should you use?
 
-            a.  []{#Restore_From .anchor}Use the GPMC’s Restore From
-                Backup command to restore the GPO in the
-                TailspinToys.com domain, specifying the Migration Table.
+            a.  Use the GPMC’s Restore From Backup command to restore
+                the GPO in the TailspinToys.com domain, specifying the
+                Migration Table.
 
             b.  Use the GPMC’s Restore From Backup command to restore
                 the GPO from the TreyResearch.net domain.
@@ -7783,13 +7687,12 @@ Lesson 1: Implementing Active Directory Federation Services
     4.  Lesson 4 Objective Overview
         ---------------------------
 
-        1.  []{#users_in .anchor}You want to provide all users in the
-            Training Department with the same default printer. It should
-            not delete any existing printers. How can you do that?
+        1.  You want to provide all users in the Training Department
+            with the same default printer. It should not delete any
+            existing printers. How can you do that?
 
-            a.  []{#GPO_linked .anchor}Create a GPO linked to the
-                Training OU and specify a Printer preference with the
-                Replace action.
+            a.  Create a GPO linked to the Training OU and specify a
+                Printer preference with the Replace action.
 
             b.  Create a GPO linked to the Training OU and specify a
                 Printer preference with the Create action.
@@ -7799,7 +7702,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  Create a GPO linked to the Training Department security
                 group and specify a Printer preference with the Create
-                action.[]{#provide_a .anchor}
+                action.
 
         2.  You need to provide a default power plan for all laptop
             users running Windows 8. The plan should be applied only to
@@ -7825,12 +7728,12 @@ Lesson 1: Implementing Active Directory Federation Services
                 Update action. Specify item-level targeting of a Battery
                 Present.***
 
-        3.  []{#all_domain .anchor}You need to ensure that all domain
-            computers currently on the local network are using a special
-            version of the Hosts file. You create a network share of
-            \\\\server\\ConfigFiles that has Read permissions for
-            Everyone. You configure a Hosts GPO and link it to the
-            Domain. What settings do you need to add to the GPO?
+        3.  You need to ensure that all domain computers currently on
+            the local network are using a special version of the Hosts
+            file. You create a network share of \\\\server\\ConfigFiles
+            that has Read permissions for Everyone. You configure a
+            Hosts GPO and link it to the Domain. What settings do you
+            need to add to the GPO?
 
             a.  ***Configure the Computer Configuration Files preference
                 to have a source file of \\\\server\\ConfigFiles\\hosts
