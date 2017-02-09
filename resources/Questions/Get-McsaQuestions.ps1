@@ -8,7 +8,7 @@ $ProgressPreference = [System.Management.Automation.ActionPreference]::SilentlyC
 $strQuestions = Invoke-WebRequest -Uri $QuestionSource -UseBasicParsing
 $ProgressPreference = $ProgressPreferenceBak
 $xmlQuestions = ($strQuestions.Content) -as [xml]
-$ListPerQuestion = $xmlQuestions.'TaggedPDF-doc'.Sect.L.L.L.LI.LBody | Select-Object -First 5
+$ListPerQuestion = $xmlQuestions.'TaggedPDF-doc'.Sect.L.L.L.LI.LBody
 [Collections.Generic.List[Object]] $questions = @()
 ForEach ($List in $ListPerQuestion) {
 	$q = New-Object -TypeName psobject
