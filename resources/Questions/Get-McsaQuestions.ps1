@@ -1,6 +1,7 @@
 [cmdletbinding()]
 Param (
-	[string] $QuestionSource = 'https://raw.githubusercontent.com/NgPecSysAdmin/NgPecSysAdmin/master/resources/Questions/questions.xml'
+	[string] $QuestionSource = 'https://raw.githubusercontent.com/NgPecSysAdmin/NgPecSysAdmin/master/resources/Questions/questions.xml',
+	[int] $NumberOfQuestions = 10
 ) # Param
 Process {
 $ProgressPreferenceBak = $ProgressPreference
@@ -22,8 +23,8 @@ $questions | ForEach-Object -Begin {$i=0} -Process {
 	$_ | Add-Member -MemberType NoteProperty -Name Id -Value ($i++)
 }
 $questions = $questions | Sort-Object { Get-Random }
+$questions = $questions | Select-Object -First $NumberOfQuestions
 Clear-Host
-Write-Host ''
 Write-Host ''
 Write-Host "  _                _ _" -ForegroundColor Yellow
 Write-Host " | |    __ _      | (_) __ _  __ _ _   _" -ForegroundColor Yellow
@@ -41,10 +42,12 @@ Write-Host " | |_| | (_) | (_) |" -ForegroundColor Yellow
 Write-Host " |____/ \___/ \___/" -ForegroundColor Yellow
 Write-Host ''
 Write-Host ''
+Write-Host 'Welcome to the snazzier way to study for your MCSA. :-)' -ForegroundColor Green
 Write-Host ''
-Write-Host 'Welcome to PowerQuiz, the snazzier way to study for your MCSA :-)' -ForegroundColor Green
+Write-Host "Real-Time answer feedback isn't implemented yet. Stay tuned for updates." -ForegroundColor Green
+Write-Host 'For now, your inputs are appended to the questions and output to the pipeline as objects.' -ForegroundColor Green
 Write-Host ''
-Write-Host ''
+Write-Host 'Answer validation will work as soon as I get a little smarter with XML parsing.' -ForegroundColor Green
 Write-Host ''
 Write-Host 'Press <ENTER> to get started.'
 $dump = Read-Host
@@ -82,8 +85,7 @@ $questions | ForEach-Object -Begin {$i=0} -Process {
 $questions | ForEach-Object {
 	$_ | Add-Member -MemberType NoteProperty -Name 'Input' -Value $($inputs[$($_.Index)])
 }
-	Write-Output $questions
-} # Process
+Write-Output $questions
 <#
 	.SYNOPSIS
 		Provides MCSA Practice questions in PowerShell.
@@ -92,9 +94,21 @@ $questions | ForEach-Object {
 		document that was exported from a PDF of some practice questions.
 	.EXAMPLE
 		.\Get-McsaQuestions.ps1
+		Gives the default of 10 random questions.
+	.EXAMPLE
+		. .\Get-McsaQuestions.ps1 -NumberOfQuestions 50
+		Gives you 50 random questions out of a possible 524
+	.PARAMETER NumberOfQuestions
+		Number of questions you want to be presented with.
+		There are currently 524 in total in the `$QuestionSource.
 	.PARAMETER QuestionSource
 		The web location of the xml document to pull questions from.
 	.NOTES
 		Still working on multi-answer inputs and scoring.
-		It's still pretty rough.
+		I'm totally open to ideas.
+		It's still a bit rough.
+		I know it's squished together and ugly.
+		It was done to make it simple to copy, paste, and run. :-)
 #>
+} # Process
+
