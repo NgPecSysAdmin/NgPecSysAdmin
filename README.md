@@ -15,4 +15,4 @@ https://www.usc.edu/~douglast/202/lecture23/manifesto.html
 ## Study for MCSA with PowerShell!
 [Get-McsaQuestions.ps1](https://raw.githubusercontent.com/NgPecSysAdmin/NgPecSysAdmin/master/resources/Questions/Get-McsaQuestions.ps1)  
   
-Just copy the script, paste into powershell, and start studying.  
+Just copy the script, paste it into PowerShell, and start studying.  
