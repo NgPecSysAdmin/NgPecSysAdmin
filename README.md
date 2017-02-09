@@ -14,3 +14,5 @@ https://www.usc.edu/~douglast/202/lecture23/manifesto.html
 [http://www.catb.org/hacker-emblem/](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
 ## Study for MCSA with PowerShell!
 [Get-McsaQuestions.ps1](https://raw.githubusercontent.com/NgPecSysAdmin/NgPecSysAdmin/master/resources/Questions/Get-McsaQuestions.ps1)  
+  
+Just copy the script, paste into powershell, and start studying.  
