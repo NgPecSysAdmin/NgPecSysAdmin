@@ -6,8 +6,6 @@ Param (
 
 ) # Param
 
-Begin {} # Begin
-
 Process {
 
 $ProgressPreferenceBak = $ProgressPreference
@@ -126,8 +124,6 @@ $questions | ForEach-Object {
 	Write-Output $questions
 
 } # Process
-
-End {} # End
 
 <#
 
