@@ -4150,9 +4150,9 @@ Lesson 1: Implementing an advanced DNS solution
     to the appropriate IPv6 address. Which type of record should you
     create in the GlobalNames zone to accomplish this goal?
 
-    a.  ***Host (AAAA)***
+    a.  Host (AAAA)
 
-    b.  Alias (CNAME)
+    b.  ***Alias (CNAME)***
 
     c.  Mail Exchanger (MX)
 
