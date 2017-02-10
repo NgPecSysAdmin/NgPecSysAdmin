@@ -499,8 +499,8 @@ Lesson 4 Review
 
     d.  You can delete them by using the Remove-Job cmdlet.
 
-2.  What action will typing the command New-JobTrigger –Daily –At “4:15
-    AM” –DaysInterval 3 perform when it is run?
+2.  What action will typing the command New-JobTrigger –Daily –At "4:15
+    AM" –DaysInterval 3 perform when it is run?
 
     a.  It creates a new scheduled job that runs daily at 4:15 A.M. on
         the third day of each week.
@@ -655,7 +655,7 @@ Lesson 2 Review
 
 3.  Which of the following is the best syntax when using the Dsquery.exe
     command-line tool to verify that Adprep has successfully extended
-    your forest’s schema?
+    your forest's schema?
 
     a.  Dsquery \* cn=schema,cn=configuration,dc=fabrikam,dc=com –attr
         objectVersion
@@ -1435,13 +1435,13 @@ Lesson 1 Review
     enable you to achieve this goal? (Choose all that apply.)
 
     a.  The printer drivers can be of the v3 type as long as the
-        driver’s INF file indicates that the driver supports driver
+        driver's INF file indicates that the driver supports driver
         isolation. After the drivers have been installed, you must use
         Print Management to configure Set Driver Isolation to the value
         Shared.
 
     b.  ***The printer drivers can be of the v3 type as long as the
-        driver’s INF file indicates that the driver supports driver
+        driver's INF file indicates that the driver supports driver
         isolation. After the drivers have been installed, you must use
         Print Management to configure Set Driver Isolation to the value
         Isolated.***
@@ -1512,7 +1512,7 @@ Lesson 2 Review
     your users indicate that they cannot print to the printer. What
     might be the reason for this?
 
-    a.  You haven’t yet deployed a printer connection to your users.
+    a.  You haven't yet deployed a printer connection to your users.
 
     b.  ***The printer has not yet been shared.***
 
@@ -1527,7 +1527,7 @@ Lesson 1 Review
 ---------------
 
 1.  You have created a flat OU structure for your domain that has only
-    top-level OUs and no child OUs. Each department’s desktops, laptops,
+    top-level OUs and no child OUs. Each department's desktops, laptops,
     and users are contained in different OUs. What is the main reason
     why this design is a poor choice when it comes to implementing Group
     Policy for your environment?
@@ -1538,11 +1538,11 @@ Lesson 1 Review
     b.  It will be difficult to delegate Group Policy because of the
         large number of GPOs you will need.
 
-    c.  It will be difficult to manage Group Policy because you won’t be
+    c.  It will be difficult to manage Group Policy because you won't be
         able to make effective use of Group Policy inheritance.
 
     d.  ***It will be difficult to delegate Group Policy because you
-        won’t be able to make effective use of Group Policy
+        won't be able to make effective use of Group Policy
         inheritance***.
 
 2.  You right-clicked an OU in the GPMC console tree that contains
@@ -1648,7 +1648,7 @@ Lesson 3 Review
 
     a.  ***Stop Processing Items In This Extension If An Error Occurs***
 
-    b.  Run In Logged-on User’s Security Context (User Policy Option)
+    b.  Run In Logged-on User's Security Context (User Policy Option)
 
     c.  Remove This Item When It Is No Longer Applied
 
@@ -1916,7 +1916,7 @@ Lesson 3: Servicing and updating deployed servers
 Lesson 1: Implementing domain password and lockout policies
 -----------------------------------------------------------
 
-1.  You want to ensure that users can’t have a password shorter than 10
+1.  You want to ensure that users can't have a password shorter than 10
     characters and must keep any new password for a week. Which of the
     following Group Policy items should you configure to accomplish this
     goal? (Choose all that apply.)
@@ -1930,7 +1930,7 @@ Lesson 1: Implementing domain password and lockout policies
     d.  Maximum Password Age
 
 2.  You want to ensure that users change their passwords every 4 weeks
-    and don’t use any of their 10 previous passwords. Which of the
+    and don't use any of their 10 previous passwords. Which of the
     following policies should you configure to accomplish this goal?
     (Choose all that apply.)
 
@@ -2202,7 +2202,7 @@ Lesson 1: Understanding DNS zones and forwarders
     authoritative name servers. Clients in the partner DNS zone also
     change their DNS records frequently. You want to enable clients in
     your organizational network to be able to quickly resolve addresses
-    in the partner’s DNS zone without worrying that your own DNS server
+    in the partner's DNS zone without worrying that your own DNS server
     is hosting stale DNS records. Which of the following should you
     create on your local DNS server to accomplish this goal? (Choose all
     that apply.)
@@ -2216,7 +2216,7 @@ Lesson 1: Understanding DNS zones and forwarders
     d.  ***Stub zone***
 
 5.  You want to have all DNS requests for nonlocal addresses go to your
-    ISP’s DNS server, except those for hosts located in the
+    ISP's DNS server, except those for hosts located in the
     margiestravel.com zone. Any requests for hosts located in the
     margiestravel.com zone should automatically be forwarded to a DNS
     server with a specific IP address. Which of the following should you
@@ -2256,7 +2256,7 @@ Lesson 2: Configuring WINS and managing GlobalNames zones
     d.  015
 
 3.  You want to provide single-label name resolution on your
-    organization’s network without deploying WINS. You must be able to
+    organization's network without deploying WINS. You must be able to
     update these records manually. Which of the following technologies
     should you use to accomplish this goal?
 
@@ -2311,12 +2311,12 @@ Lesson 3: Understanding advanced DNS options
     d.  CNAME record
 
 2.  You have just deployed a server that will function as an SMTP
-    gateway on your organization’s perimeter network. This server has
+    gateway on your organization's perimeter network. This server has
     been assigned an FQDN, and an entry exists pointing to the server in
-    the reverse lookup zone associated with the server’s public IP
+    the reverse lookup zone associated with the server's public IP
     address. Which type of resource record should you create if you want
     to ensure that the mail servers of external organizations can
-    recognize this server as your organization’s external mail gateway?
+    recognize this server as your organization's external mail gateway?
 
     a.  CNAME record
 
@@ -2443,72 +2443,72 @@ Lesson 2: Maintaining domain controllers
     of the AD DS database where {GUID} is the GUID associated with the
     snapshot?
 
-    a.  Ntdsutil.exe “activate instance ntds” snapshot “unmount {GUID}”
+    a.  Ntdsutil.exe "activate instance ntds" snapshot "unmount {GUID}"
         quit quit
 
-    b.  ***Ntdsutil “activate instance ntds” snapshot “mount {GUID}”
+    b.  ***Ntdsutil "activate instance ntds" snapshot "mount {GUID}"
         quit quit***
 
-    c.  Ntdsutil snapshot “Activate Instance NTDS” create quit quit
+    c.  Ntdsutil snapshot "Activate Instance NTDS" create quit quit
 
-    d.  Ntdsutil.exe “activate instance ntds” “semantic database
-        analysis” “verbose on” “go fixup” quit quit
+    d.  Ntdsutil.exe "activate instance ntds" "semantic database
+        analysis" "verbose on" "go fixup" quit quit
 
 2.  Which of the following commands should you use to defragment the
     file that hosts the AD DS database?
 
-    a.  Ntdsutil.exe “activate instance ntds” files integrity quit quit
+    a.  Ntdsutil.exe "activate instance ntds" files integrity quit quit
 
-    b.  ***Ntdsutil.exe “activate instance ntds” files “compact to
-        c:\\\\” quit quit***
+    b.  ***Ntdsutil.exe "activate instance ntds" files "compact to
+        c:\\\\" quit quit***
 
-    c.  Ntdsutil.exe “activate instance ntds” snapshot “unmount {GUID}”
+    c.  Ntdsutil.exe "activate instance ntds" snapshot "unmount {GUID}"
         quit quit
 
-    d.  Ntdsutil “activate instance ntds” snapshot “mount {GUID}” quit
+    d.  Ntdsutil "activate instance ntds" snapshot "mount {GUID}" quit
         quit
 
 3.  Which of the following commands should you use to take a snapshot of
     the AD DS database?
 
-    a.  ***Ntdsutil snapshot “Activate Instance NTDS” create quit
+    a.  ***Ntdsutil snapshot "Activate Instance NTDS" create quit
         quit***
 
-    b.  Ntdsutil.exe “activate instance ntds” “semantic database
-        analysis” “verbose on” “go fixup” quit quit
+    b.  Ntdsutil.exe "activate instance ntds" "semantic database
+        analysis" "verbose on" "go fixup" quit quit
 
-    c.  Ntdsutil.exe “activate instance ntds” files integrity quit quit
+    c.  Ntdsutil.exe "activate instance ntds" files integrity quit quit
 
-    d.  ***Ntdsutil.exe “activate instance ntds” files “compact to
-        c:\\\\” quit quit***
+    d.  ***Ntdsutil.exe "activate instance ntds" files "compact to
+        c:\\\\" quit quit***
 
 4.  Which of the following commands should you use to form a check of
     the integrity of the file that hosts the AD DS database?
 
-    a.  Ntdsutil.exe “activate instance ntds” “semantic database
-        analysis” “verbose on” “go fixup” quit quit
+    a.  Ntdsutil.exe "activate instance ntds" "semantic database
+        analysis" "verbose on" "go fixup" quit quit
 
-    b.  Ntdsutil.exe “activate instance ntds” files “compact to c:\\\\”
+    b.  Ntdsutil.exe "activate instance ntds" files "compact to c:\\\\"
         quit quit
 
-    c.  ***Ntdsutil.exe “activate instance ntds” files integrity quit
+    c.  ***Ntdsutil.exe "activate instance ntds" files integrity quit
         quit***
 
-    d.  Ntdsutil “activate instance ntds” snapshot “mount {GUID}” quit
+    d.  Ntdsutil "activate instance ntds" snapshot "mount {GUID}" quit
         quit
 
 5.  Which of the following commands should you use to check the logical
     integrity of the AD DS database?
 
-    a.  Ntdsutil snapshot “Activate Instance NTDS” create quit quit
+    a.  Ntdsutil snapshot "Activate Instance NTDS" create quit quit
 
-    b.  Ntdsutil.exe “activate instance ntds” files integrity quit quit
+    b.  Ntdsutil.exe "activate instance ntds" files integrity quit quit
 
-    c.  Ntdsutil “activate instance ntds” snapshot “mount {GUID}” quit
+    c.  Ntdsutil "activate instance ntds" snapshot "mount {GUID}" quit
         quit
 
-    d.  ***Ntdsutil.exe “activate instance ntds” “semantic database
-        analysis” “verbose on” “go fixup” quit quit***
+    d.  ***Ntdsutil.exe "activate instance ntds" "semantic database
+        analysis" "verbose on" "go fixup" quit quit***
 
 6.  Lesson 3: Recovering Active Directory
 
@@ -2534,7 +2534,7 @@ Lesson 2: Maintaining domain controllers
 
     d.  Active Directory Domain
 
-8.  A domain controller’s AD DS database has become corrupt. You have a
+8.  A domain controller's AD DS database has become corrupt. You have a
     backup of all critical volumes, which include system state data,
     from earlier in the week. No important Active Directory objects have
     been deleted. Which of the following steps do you need to take to
@@ -2596,7 +2596,7 @@ Lesson 1: Maintaining Group Policy Object
 2.  Prior to editing a Group Policy, your assistant makes a backup of
     the GPO that she is going to edit. Unfortunately, she makes a
     mistake in configuring the GPO. You need to revert the GPO to the
-    state it was in prior to your assistant’s edits. Which of the
+    state it was in prior to your assistant's edits. Which of the
     following Windows PowerShell cmdlets should you use to accomplish
     this goal?
 
@@ -2666,7 +2666,7 @@ Lesson 2: Managing the application of Group Policy
     Group Policy named Delta is assigned to the Research OU. A computer
     account is located in the Research OU. If the same setting is
     configured differently in the Alpha, Beta, Gamma, and Delta GPOs,
-    which GPO’s version of this setting will apply to the computer?
+    which GPO's version of this setting will apply to the computer?
 
     a.  Alpha
 
@@ -2682,7 +2682,7 @@ Lesson 2: Managing the application of Group Policy
     Group Policy named Delta is assigned to the Research OU. A computer
     account is located in the Research OU. GPO Gamma is configured with
     the No Override setting. If the same setting is configured
-    differently in the Alpha, Beta, Gamma, and Delta GPOs, which GPO’s
+    differently in the Alpha, Beta, Gamma, and Delta GPOs, which GPO's
     version of this setting will apply to the computer?
 
     a.  Alpha
@@ -2700,7 +2700,7 @@ Lesson 2: Managing the application of Group Policy
     account is located in the Research OU. GPO Beta is configured with
     the No Override setting. OU Research is configured with the Block
     Inheritance setting. If the same setting is configured differently
-    in GPOs Alpha, Beta, Gamma, and Delta, which GPO’s version of this
+    in GPOs Alpha, Beta, Gamma, and Delta, which GPO's version of this
     setting will apply to the computer?
 
     a.  Alpha
@@ -2711,7 +2711,7 @@ Lesson 2: Managing the application of Group Policy
 
     d.  Delta
 
-5.  You have a policy applied at the domain level that you don’t want
+5.  You have a policy applied at the domain level that you don't want
     applied to five computers in your organization. Which of the
     following should you configure to accomplish this goal?
 
@@ -2746,7 +2746,7 @@ Lesson 1: Folder redirection, software installation, and scripts
 2.  A specific user who has the sole account in a specific OU always
     uses the same computer. The computer account is in an OU by itself.
     You want a particular software package to install the next time the
-    user’s computer starts. Which of the following steps should you take
+    user's computer starts. Which of the following steps should you take
     to accomplish this goal?
 
     a.  Publish the package using the Computer
@@ -2776,7 +2776,7 @@ Lesson 1: Folder redirection, software installation, and scripts
 
 4.  You want to ensure that items such as folders and documents that a
     user stores on their desktop are available to them independently of
-    which computer they sign on to in your organization’s AD DS domain.
+    which computer they sign on to in your organization's AD DS domain.
     Which of the following Folder Redirection policies should you
     configure to accomplish this goal?
 
@@ -2791,7 +2791,7 @@ Lesson 1: Folder redirection, software installation, and scripts
 5.  A specific user who has the sole account in a specific OU always
     uses the same computer. The computer account is also in an OU by
     itself. You want a particular software package to install the next
-    time the user’s logs on. Which of the following steps should you
+    time the user's logs on. Which of the following steps should you
     take to accomplish this goal? (Choose all that apply.)
 
     a.  ***Assign the package using the User
@@ -2806,9 +2806,9 @@ Lesson 1: Folder redirection, software installation, and scripts
     d.  Publish the package using the Computer
         Configuration\\Policies\\Software Settings node.
 
-6.  You want to ensure that a user’s Internet Explorer bookmarks are
+6.  You want to ensure that a user's Internet Explorer bookmarks are
     available to the user when they sign on to any computer in your
-    organization’s Active Directory Domain Services (AD DS) domain.
+    organization's Active Directory Domain Services (AD DS) domain.
     Which of the following Folder Redirection policies should you
     configure to accomplish this goal? (Choose all that apply.)
 
@@ -3075,7 +3075,7 @@ Lesson 2: Understanding Network Access Protection enforcement methods
 ---------------------------------------------------------------------
 
 1.  You want to limit connections from the Internet to your
-    organization’s Remote Desktop session host servers to those clients
+    organization's Remote Desktop session host servers to those clients
     that can demonstrate that they are healthy. Which NAP enforcement
     method should you implement?
 
@@ -3089,7 +3089,7 @@ Lesson 2: Understanding Network Access Protection enforcement methods
 
 2.  You want to stop laptop computers that are not up to date with
     software updates and antimalware definitions from connecting to your
-    organization’s wireless access points. Which NAP enforcement method
+    organization's wireless access points. Which NAP enforcement method
     should you implement?
 
     a.  ***802.1X enforcement***
@@ -3193,13 +3193,13 @@ Lesson 3: Understanding Network Access Protection infrastructure
 Lesson 1: Configuring RADIUS
 ----------------------------
 
-1.  Your organization has three Active Directory forests that don’t have
+1.  Your organization has three Active Directory forests that don't have
     a trust relationship. You have a single VPN server that handles all
     incoming VPN connections. This VPN server is a dedicated hardware
     device deployed on the perimeter network. You want to configure the
     deployment so that authentication and authorization traffic is
     forwarded to existing RADIUS servers in each forest based on the
-    connecting user’s account properties. Which of the following must
+    connecting user's account properties. Which of the following must
     you deploy to accomplish this goal?
 
     a.  RADIUS server
@@ -3210,10 +3210,10 @@ Lesson 1: Configuring RADIUS
 
     d.  RADIUS accounting
 
-2.  You want to deploy a server on your organization’s internal network
+2.  You want to deploy a server on your organization's internal network
     that will respond to authentication and authorization requests from
     a dedicated hardware device that functions as a VPN server that is
-    deployed on your organization’s perimeter network. Which of the
+    deployed on your organization's perimeter network. Which of the
     following must you deploy to accomplish this goal?
 
     a.  RADIUS accounting
@@ -3226,8 +3226,8 @@ Lesson 1: Configuring RADIUS
 
 3.  Your organization has purchased a dedicated hardware device that
     functions as a VPN server, and you have deployed this device on your
-    organization’s perimeter network. You want to allow your
-    organization’s existing RADIUS server, deployed as a Windows Server
+    organization's perimeter network. You want to allow your
+    organization's existing RADIUS server, deployed as a Windows Server
     2012 R2 server with the NPS enrolled to accept and respond to
     authentication and authorization traffic from this device. Which of
     the following should you configure on the server with the NPS role
@@ -3298,7 +3298,7 @@ Lesson 2: Configuring VPN and routing
 3.  Several users in your organization regularly stay at hotels that
     have firewalls that allow only outbound traffic on TCP port 80 and
     44Which of the following VPN protocols should you enable to allow
-    these users to connect to your organization’s Windows Server 2012 R2
+    these users to connect to your organization's Windows Server 2012 R2
     VPN server?
 
     a.  IKEv2
@@ -3323,8 +3323,8 @@ Lesson 2: Configuring VPN and routing
 
 5.  You are in the process of running the Routing And Remote Access
     Setup Wizard. Which of the following options should you select if
-    you want to allow a group of computers on your organization’s
-    network that don’t need to be able to accept direct inbound
+    you want to allow a group of computers on your organization's
+    network that don't need to be able to accept direct inbound
     communication from hosts on the Internet to share an Internet
     connection?
 
@@ -3354,10 +3354,10 @@ Lesson 3: Configuring DirectAccess
     Which of the following conditions must be met to implement this
     configuration?
 
-    a.  The DirectAccess server’s Internet interface must be assigned a
+    a.  The DirectAccess server's Internet interface must be assigned a
         single public IPv4 address.
 
-    b.  The DirectAccess server’s Internet interface must be assigned
+    b.  The DirectAccess server's Internet interface must be assigned
         two consecutive public IPv4 addresses.
 
     c.  The DirectAccess server must be configured to use RADIUS
@@ -3400,7 +3400,7 @@ Lesson 3: Configuring DirectAccess
 
     c.  ***The DirectAccess server is behind a NAT device.***
 
-    d.  The DirectAccess server’s public interface is assigned two
+    d.  The DirectAccess server's public interface is assigned two
         nonconsecutive public IPv4 addresses.
 
 411 Chapter 9 Managing File Services
@@ -3410,7 +3410,7 @@ Lesson 1: Configuring File Server Resource Manager
 --------------------------------------------------
 
 1.  You want to stop users from saving audio and video files to shared
-    folders hosted on your organization’s Windows Server 2012 R2 file
+    folders hosted on your organization's Windows Server 2012 R2 file
     servers. You have installed FSRM on each file server. Which of the
     following must you configure to accomplish this goal?
 
@@ -3425,7 +3425,7 @@ Lesson 1: Configuring File Server Resource Manager
 2.  You have configured a file screen for the Research shared folder.
     This file screen currently blocks all files except Office document
     files. You want to keep this file screen in place, but allow
-    compressed files, which can’t be written to the Research folder, to
+    compressed files, which can't be written to the Research folder, to
     be able to be stored in the Old\_Projects folder, a subfolder of the
     Research folder. It should not be possible for users to store
     compressed files in the Research folder or in other subfolders of
@@ -3497,7 +3497,7 @@ Lesson 1: Configuring File Server Resource Manager
 7.  You have applied a quota to a file share. You are configuring a
     notification for the 90 percent threshold. This notification should
     forward reports to users detailing files that they have stored that
-    they haven’t used recently, as well as the name and location of any
+    they haven't used recently, as well as the name and location of any
     large files. Which of the following reports should you include when
     configuring this threshold notification? (Choose all that apply.)
 
@@ -3564,7 +3564,7 @@ Lesson 2: Configuring a Distributed File System
 
     d.  ***Configure a stand-alone DFS namespace.***
 
-4.  Your organization’s head office is located in Melbourne, Australia,
+4.  Your organization's head office is located in Melbourne, Australia,
     with branch offices in Sydney, Brisbane, Adelaide, Perth, Darwin,
     and Hobart. Your organization has a single Active Directory domain
     running at the Windows Server 2008 functional level. The forest is
@@ -3616,7 +3616,7 @@ Lesson 3: Configuring file and disk encryption
     d.  Autoenrollment
 
 3.  You want to configure a computer so that the contents of any
-    BitLocker-encrypted volume from one of your organization’s
+    BitLocker-encrypted volume from one of your organization's
     domain-joined computers are accessible, without having to extract a
     recovery key from Active Directory. Which of the following could you
     configure to accomplish this goal?
@@ -3632,7 +3632,7 @@ Lesson 3: Configuring file and disk encryption
 4.  Your organization does not have an Active Directory Certificate
     Services deployment. You want to ensure that BitLocker recovery keys
     for encrypted volumes on domain-joined computers are easy to locate
-    on a per-computer basis, even if the computer’s name is changed.
+    on a per-computer basis, even if the computer's name is changed.
     Which of the following Group Policy items should you configure to
     accomplish this goal?
 
@@ -3648,7 +3648,7 @@ Lesson 3: Configuring file and disk encryption
     your organization. Each of these computers has a DHCP drive
     implemented in UEFI firmware. During software update deployment,
     when these computers need to reboot, it is necessary for a
-    technician or the computer’s user to enter a PIN to enable the
+    technician or the computer's user to enter a PIN to enable the
     computer to restart. You want to enable automatic restarts to occur
     when computers are connected to the wired network without requiring
     a PIN to be entered. A PIN should be required if the computer is
@@ -3698,7 +3698,7 @@ Lesson 1: Monitoring servers
 2.  A particular network service on a computer running Windows Server
     2012 R2 that you are responsible for managing is not functioning
     correctly. You suspect that the service is listening on a TCP port
-    that Windows Firewall is configured to block, but you don’t know
+    that Windows Firewall is configured to block, but you don't know
     which TCP port the service uses. Which of the following tools should
     you use to determine this information?
 
@@ -3827,7 +3827,7 @@ Lesson 1: Configuring domains and forests
 
 2.  You are the systems administrator for Tailspin Toys and its
     subsidiary company Wingtip Toys. You are in the process of designing
-    a new Active Directory structure. You’ve been asked to ensure that
+    a new Active Directory structure. You've been asked to ensure that
     employees who work in the Tailspin Toys part of the organization log
     into a domain named tailspintoys.com and that employees who work in
     the Wingtip Toys part of the organization log into a domain named
@@ -3893,7 +3893,7 @@ Lesson 2: Configuring trusts
     university has a deployment of Linux servers and workstations that
     are members of a Kerberos V5 realm. You want to allow users of the
     Linux workstations to have access to several file shares hosted in
-    one of your organization’s Active Directory domains. Which of the
+    one of your organization's Active Directory domains. Which of the
     following trust types would you implement to accomplish this goal?
 
     a.  Shortcut trust
@@ -3911,9 +3911,9 @@ Lesson 2: Configuring trusts
     at the Windows Server 2008 functional level. The subsidiary company
     has implemented a number of schema modifications to support a custom
     application. You want to allow users in the subsidiary company to be
-    able to access resources hosted in your organization’s forest. Users
-    in your organization’s forest should also be able to access
-    resources in the subsidiary company’s forest. Which of the following
+    able to access resources hosted in your organization's forest. Users
+    in your organization's forest should also be able to access
+    resources in the subsidiary company's forest. Which of the following
     trust relationships should you configure to accomplish this goal?
 
     a.  External trust
@@ -3926,11 +3926,11 @@ Lesson 2: Configuring trusts
 
 4.  You are the senior systems administrator of the contoso.com forest.
     Users in the australia.pacific.contoso.com domain need access to
-    resources hosted in one domain of a partner organization’s Active
-    Directory forest. These users shouldn’t have access to any other
-    domain in the partner organization’s forest. Users from other
-    domains in your organization’s forest should also not have access to
-    resources in the partner organization’s forest. Which of the
+    resources hosted in one domain of a partner organization's Active
+    Directory forest. These users shouldn't have access to any other
+    domain in the partner organization's forest. Users from other
+    domains in your organization's forest should also not have access to
+    resources in the partner organization's forest. Which of the
     following trust types would you configure in this scenario?
 
     a.  ***External trust***
@@ -3947,7 +3947,7 @@ Lesson 2: Configuring trusts
 Lesson 1: Configuring sites
 ---------------------------
 
-1.  You want to manually reregister a specific domain controller’s SRV
+1.  You want to manually reregister a specific domain controller's SRV
     records. Which service should you restart to accomplish this goal?
 
     a.  ***Netlogon***
@@ -4036,7 +4036,7 @@ Lesson 2: Active Directory replication
     e.  Repadmin /syncall ADL-RODC
 
 2.  You have just substantially changed the structure of your
-    organization’s WAN links. You want to trigger an update on SYD-DC of
+    organization's WAN links. You want to trigger an update on SYD-DC of
     the inbound replication topology. Which of the following commands
     could you use to accomplish this goal?
 
@@ -4051,7 +4051,7 @@ Lesson 2: Active Directory replication
     e.  Repadmin /replsummary SYD-DC
 
 3.  You are in the process of diagnosing replication problems to a DC
-    named CBR-DC, which is located in your organization’s Canberra
+    named CBR-DC, which is located in your organization's Canberra
     branch office. You want to view information about the failure and
     success percentages of both inbound and outbound replication
     operations. Which of the following commands could you use to
@@ -4083,7 +4083,7 @@ Lesson 2: Active Directory replication
 
 5.  You are attempting to diagnose some replication problems with the
     domain controller BNE-DYou want to show status information on this
-    domain controller’s most recent attempts to perform inbound
+    domain controller's most recent attempts to perform inbound
     replication. Which of the following commands would you use to
     accomplish this goal?
 
@@ -4158,13 +4158,13 @@ Lesson 1: Implementing an advanced DNS solution
 
     d.  Pointer (PTR)
 
-2.  You have deployed WSUS servers to each of your organization’s branch
+2.  You have deployed WSUS servers to each of your organization's branch
     offices. Each branch office is located on its own subnet. You have
     created DNS records that use the same name, wsus.contoso.com, for
     each of the WSUS servers in these different branch offices. You want
     to ensure that when a client makes a name request for the record
     wsus.contoso.com, the DNS server returns the record that corresponds
-    to an IP address on the client’s local subnet. Which of the
+    to an IP address on the client's local subnet. Which of the
     following DNS options do you configure to accomplish this goal?
 
     a.  Socket pool
@@ -4175,7 +4175,7 @@ Lesson 1: Implementing an advanced DNS solution
 
     d.  ***Netmask ordering***
 
-3.  The DNS server that hosts your organization’s external address space
+3.  The DNS server that hosts your organization's external address space
     is under attack from nefarious third parties who are slowing it down
     by constantly launching DNS queries against the server for hosts in
     zones not hosted on the server. The DNS server should only return
@@ -4191,7 +4191,7 @@ Lesson 1: Implementing an advanced DNS solution
 
     d.  Socket pool
 
-4.  You want to ensure that a record stored in the DNS server’s cache
+4.  You want to ensure that a record stored in the DNS server's cache
     cannot be overwritten until 90 percent of its TTL period has
     expired. Which of the following DNS server settings would you
     configure to accomplish this goal?
@@ -4237,9 +4237,9 @@ Lesson 2: Implementing an advanced DHCP solution
 
 2.  Your organization has two DHCP servers at its central site. Both
     DHCP servers are running on the Windows Server 2012 operating
-    system. One DHCP server also hosts the company’s intranet site. You
+    system. One DHCP server also hosts the company's intranet site. You
     want to configure DHCP so that one DHCP server handles the majority
-    of the organization’s DHCP traffic and the other DHCP server,
+    of the organization's DHCP traffic and the other DHCP server,
     installed on the server that hosts the intranet site, only leases
     addresses if the first one becomes unavailable. The second DHCP
     server should be able to lease addresses from the entire scope until
@@ -4272,7 +4272,7 @@ Lesson 2: Implementing an advanced DHCP solution
 
     d.  Configure DHCP failover. Use hot standby mode.
 
-4.  Your organization’s head office has two DHCP servers that are hosted
+4.  Your organization's head office has two DHCP servers that are hosted
     on computers running the Windows Server 2012 operating system. You
     want to configure these DHCP servers so that they share scopes and
     respond to client requests in a load-balanced manner. In the event
@@ -4294,7 +4294,7 @@ Lesson 3: Deploying and managing IPAM
 -------------------------------------
 
 1.  You need to give a user the ability to view IP address tracking
-    information stored in your organization’s IPAM server without adding
+    information stored in your organization's IPAM server without adding
     him or her to the IPAM Administrators group. To which of the
     following IPAM-related security groups could you add this user to
     grant this privilege?
@@ -4320,9 +4320,9 @@ Lesson 3: Deploying and managing IPAM
 
     d.  IPAM IP Audit Administrators
 
-3.  You want to use IPAM’s IP address tracking feature to determine
+3.  You want to use IPAM's IP address tracking feature to determine
     which IP addresses a computer with a specific MAC address was
-    assigned by your organization’s DHCP servers during a particular
+    assigned by your organization's DHCP servers during a particular
     week. Which of the following categories should you search on to
     accomplish this goal?
 
@@ -4336,7 +4336,7 @@ Lesson 3: Deploying and managing IPAM
 
 4.  You are in the process of configuring IPAM. You have run the
     discovery process and discovered three servers that host the DHCP
-    server role. The server’s IPAM Access Status is listed in the IPAM
+    server role. The server's IPAM Access Status is listed in the IPAM
     Server Inventory as Blocked. Which of the following steps should you
     take so that this status changes to unblocked? (Choose two.)
 
@@ -4357,7 +4357,7 @@ Lesson 3: Deploying and managing IPAM
 Lesson 1: Installing and configuring Active Directory Certificate Services
 --------------------------------------------------------------------------
 
-1.  You want to deploy an offline CA as the apex of your organization’s
+1.  You want to deploy an offline CA as the apex of your organization's
     certificate services hierarchy. You should only bring this CA online
     to sign the certificates of subordinate CAs. Which of the following
     solutions should you implement to accomplish this goal?
@@ -4373,7 +4373,7 @@ Lesson 1: Installing and configuring Active Directory Certificate Services
 2.  You have deployed a standalone computer running Windows Server 2012
     R2 to Windows Azure. You want to use this computer to provide
     certificates to partner organizations without having the certificate
-    authority joined to your organization’s Active Directory domain.
+    authority joined to your organization's Active Directory domain.
     Which of the following CA types could you deploy in this scenario?
     (Choose all that apply.)
 
@@ -4386,7 +4386,7 @@ Lesson 1: Installing and configuring Active Directory Certificate Services
     d.  Standalone subordinate CA
 
 3.  You want to minimize the amount of network traffic caused by clients
-    accessing the CRL of your organization’s CWhich of the following
+    accessing the CRL of your organization's CWhich of the following
     role services could you install to accomplish this goal?
 
     a.  CA Web Enrollment
@@ -4505,10 +4505,10 @@ Lesson 2: Managing certificates
 
     d.  Configure a standalone CA to issue the template.
 
-4.  On Monday morning, Don rings you and tells you that he doesn’t have
+4.  On Monday morning, Don rings you and tells you that he doesn't have
     his smart card and might have lost it at the coffee shop, but he
-    suspects that he might have left it at home. He’s travelling
-    interstate today and won’t get home until Friday. He won’t know
+    suspects that he might have left it at home. He's travelling
+    interstate today and won't get home until Friday. He won't know
     until then if it is lost or sitting on the kitchen table at home.
     Policy dictates that you should revoke his smart card certificate.
     Which of the following reasons should you specify when revoking his
@@ -4524,9 +4524,9 @@ Lesson 2: Managing certificates
     d.  Change of Affiliation
 
 5.  You have located Trojan software that allows remote access to a
-    standalone certificate server located on your organization’s
+    standalone certificate server located on your organization's
     perimeter network. The CA certificate for the perimeter network CA
-    was issued from your organization’s enterprise root CYou are in the
+    was issued from your organization's enterprise root CYou are in the
     process of revoking the CA certificate of the perimeter network
     CWhich of the following reasons should you use when revoking this
     certificate?
@@ -4943,7 +4943,7 @@ Lesson 1: Virtual machine movement
 ----------------------------------
 
 1.  You have three running virtual machines that are hosted on your
-    Windows Server 2012 R2 Hyper-V server’s C: volume. You want to move
+    Windows Server 2012 R2 Hyper-V server's C: volume. You want to move
     these three running virtual machines to another storage location
     without shutting them down. Assuming enough space is available,
     which of the following volumes could you use as a destination when
@@ -5071,7 +5071,7 @@ Lesson 1: Implementing Dynamic Access Control (DAC)
 1.  You want to ensure that you are able to configure access to specific
     files for users that are full-time employees. Which of the following
     should you configure to extract this information from the user
-    account’s Active Directory attribute?
+    account's Active Directory attribute?
 
     a.  ***Configure a user or device claim.***
 
@@ -5123,7 +5123,7 @@ Lesson 2: Installing and configuring Active Directory Rights Management Services
 1.  You want a co-worker to be able to recover data from AD
     RMS–protected documents where the AD RMS template settings have
     caused that content to expire. To which of the following groups
-    should you add your co-worker’s account?
+    should you add your co-worker's account?
 
     a.  ***Super Users***
 
@@ -5148,7 +5148,7 @@ Lesson 2: Installing and configuring Active Directory Rights Management Services
 
 3.  You want to automatically apply an AD RMS template named
     Submarine\_Protection to all documents on a file share that contain
-    the word “Submarine.” Which of the following should you configure to
+    the word "Submarine." Which of the following should you configure to
     accomplish this goal?
 
     a.  File Server Resource Manager classification rule
@@ -5463,7 +5463,7 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Assignment
 
         3.  Which of the following are tasks you can perform by using
-            the quotas in File Server Resource Manager but can’t perform
+            the quotas in File Server Resource Manager but can't perform
             by using NTFS quotas? (Choose all that apply.)
 
             a.  ***Send an email message to an administrator when users
@@ -5560,7 +5560,7 @@ Lesson 1: Implementing Active Directory Federation Services
             R2 configured as a print server. Users in the Marketing
             group report that they cannot print documents using a
             printer on the server. You view the permissions in the
-            printer’s properties. The Marketing group is allowed Manage
+            printer's properties. The Marketing group is allowed Manage
             Documents permission. Which of the following statements best
             explains why the users cannot print to the printer?
 
@@ -5580,22 +5580,22 @@ Lesson 1: Implementing Active Directory Federation Services
             2012 R2. You want to perform maintenance on a print device
             physically connected to the print server. There are several
             documents in the print queue. You want to prevent the
-            documents from being printed to the printer, but you don’t
+            documents from being printed to the printer, but you don't
             want users to have to resubmit the documents to the printer.
             Which of the following statements best describes the best
             way to do this?
 
-            a.  Open the printer’s Properties dialog box, select the
+            a.  Open the printer's Properties dialog box, select the
                 Sharing tab, and select the Do Not Share This Printer
                 option.
 
-            b.  Open the printer’s Properties dialog box and select a
+            b.  Open the printer's Properties dialog box and select a
                 port that is not associated with a print device.
 
-            c.  Open the printer’s queue window, select the first
+            c.  Open the printer's queue window, select the first
                 document, and select Pause from the Document window.
 
-            d.  ***Open the printer’s queue window and select the Pause
+            d.  ***Open the printer's queue window and select the Pause
                 Printing option from the Printer menu.***
 
     3.  Lesson 3 Objective Overview
@@ -5798,7 +5798,7 @@ Lesson 1: Implementing Active Directory Federation Services
             a.  ***Checkpoints can consume a large amount of disk
                 space.***
 
-            b.  Each checkpoint requires a separate copy of the VM’s
+            b.  Each checkpoint requires a separate copy of the VM's
                 memory allocation.
 
             c.  Each checkpoint can take several hours to create.
@@ -6028,7 +6028,7 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  ***PTR***
 
         2.  Which of the following would be the correct FQDN for a
-            resource record in a reverse lookup zone if the computer’s
+            resource record in a reverse lookup zone if the computer's
             IP address is 10.75.143.88?
 
             a.  ***88.143.75.10.in-addr.arpa***
@@ -6056,27 +6056,27 @@ Lesson 1: Implementing Active Directory Federation Services
                 name [www.adatum.com](http://www.adatum.com/) to its
                 designated DNS server for resolution.***
 
-            b.  A client’s DNS server sends a request to a root domain
+            b.  A client's DNS server sends a request to a root domain
                 server to find the authoritative server for the com
                 top-level domain.
 
-            c.  A client’s DNS server sends a request to the com
+            c.  A client's DNS server sends a request to the com
                 top-level domain server to find the authoritative server
                 for the adatum.com domain.
 
-            d.  A client’s DNS server sends a request to the adatum.com
+            d.  A client's DNS server sends a request to the adatum.com
                 domain server to find the IP address associated with the
                 server name www.
 
         5.  Which of the following contains the controls used to modify
             DNS name caching?
 
-            a.  The Forwarders tab of a server’s Properties sheet
+            a.  The Forwarders tab of a server's Properties sheet
 
-            b.  ***The Start of Authority (SOA) tab of a zone’s
+            b.  ***The Start of Authority (SOA) tab of a zone's
                 Properties sheet***
 
-            c.  The Root Hints tab of a server’s Properties sheet
+            c.  The Root Hints tab of a server's Properties sheet
 
             d.  The New Zone Wizard
 
@@ -6107,7 +6107,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             d.  ***Container***
 
-        3.  Which of the following is *not* true about an object’s
+        3.  Which of the following is *not* true about an object's
             attributes?
 
             a.  Administrators must manually supply information for
@@ -6267,7 +6267,7 @@ Lesson 1: Implementing Active Directory Federation Services
 
             a.  There are still members in the group.
 
-            b.  ***One of the group’s members has the group set as its
+            b.  ***One of the group's members has the group set as its
                 primary group.***
 
             c.  ***You do not have the proper permissions for the
@@ -6736,7 +6736,7 @@ Lesson 1: Implementing Active Directory Federation Services
         3.  You need to allow users to store files for sharing with
             other users. These files are stored on the D:\\UserShare
             folder of SRV2, which is shared as \\\\srv2\\share. Each
-            user’s use of the space is limited to 250 MB. When users
+            user's use of the space is limited to 250 MB. When users
             reach 200 MB, they should be warned via email and the
             Administrator account should also be notified by email. How
             can you implement this?
@@ -6808,9 +6808,9 @@ Lesson 1: Implementing Active Directory Federation Services
     4.  Lesson 4 Objective Overview
         ---------------------------
 
-        1.  You monitor changes to distribution groups and you don’t
+        1.  You monitor changes to distribution groups and you don't
             want to get events from other account management events
-            because it would tend to hide the specific events you’re
+            because it would tend to hide the specific events you're
             looking for in the high noise levels. What policy do you
             need to set and what setting should it have?
 
@@ -6885,18 +6885,18 @@ Lesson 1: Implementing Active Directory Federation Services
             would you use?
 
             a.  Add-DnsServerPrimaryZone -Name
-                ‘Engineering.TreyResearch.net’ -zone
-                ‘engineering.treyresearch.net.dns’ -replication Domain
+                'Engineering.TreyResearch.net' -zone
+                'engineering.treyresearch.net.dns' -replication Domain
 
             b.  Add-DnsServerPrimaryZone -Name
-                ‘Engineering.TreyResearch.net’ -zone
-                ‘engineering.treyresearch.net.dns’ -replication Forest
+                'Engineering.TreyResearch.net' -zone
+                'engineering.treyresearch.net.dns' -replication Forest
 
             c.  ***Add-DnsServerPrimaryZone -Name
-                ‘Engineering.TreyResearch.net’ -replication Domain***
+                'Engineering.TreyResearch.net' -replication Domain***
 
             d.  Add-DnsServerPrimaryZone -Name
-                ‘Engineering.TreyResearch.net’ -replication Forest
+                'Engineering.TreyResearch.net' -replication Forest
 
         2.  You need to create a new secondary reverse lookup zone for
             the TreyResearch.net, which uses 192.168.10.0 -
@@ -6904,19 +6904,19 @@ Lesson 1: Implementing Active Directory Federation Services
             hosted by trey-dc-02 at 192.168.10.2. What Windows
             PowerShell commands would you use?
 
-            a.  Add-DnsSecondaryZone -Name ‘TreyResearch.net’ -NetworkID
-                “192.168.10.0/24” -Replication Domain -Master
-                “trey-dc-02.treyresearch.net”
+            a.  Add-DnsSecondaryZone -Name 'TreyResearch.net' -NetworkID
+                "192.168.10.0/24" -Replication Domain -Master
+                "trey-dc-02.treyresearch.net"
 
-            b.  ***Add-DnsSecondaryZone -NetworkID “192.168.10.0/24”
-                -Master 192.168.10.2 -Zone “10.168.192.in-addr.arpa”***
+            b.  ***Add-DnsSecondaryZone -NetworkID "192.168.10.0/24"
+                -Master 192.168.10.2 -Zone "10.168.192.in-addr.arpa"***
 
-            c.  Add-DnsSecondaryZone -NetworkID “192.168.10.0/24”
-                -Master 192.168.10.2 -Zone “0.10.168.192.in-addr.arpa”
+            c.  Add-DnsSecondaryZone -NetworkID "192.168.10.0/24"
+                -Master 192.168.10.2 -Zone "0.10.168.192.in-addr.arpa"
 
-            d.  Add-DnsSecondaryZone -NetworkID “192.168.10.0/24”
-                -Master “trey-dc-02.treyresearch.net” -Zone
-                “10.168.192.dns”
+            d.  Add-DnsSecondaryZone -NetworkID "192.168.10.0/24"
+                -Master "trey-dc-02.treyresearch.net" -Zone
+                "10.168.192.dns"
 
         3.  You are the enterprise administrator for Trey Research. Your
             domain name is TreyResearch.net, and your IPv4 address range
@@ -6987,17 +6987,17 @@ Lesson 1: Implementing Active Directory Federation Services
             record for ns13.treyresearch.net at 192.168.10.13?
 
             a.  ***Add-DnsServerResourceRecord -ZoneName
-                “treyresearch.net” -NS -Name “.” -NameServer
-                “ns13.treyresearch.net”***
+                "treyresearch.net" -NS -Name "." -NameServer
+                "ns13.treyresearch.net"***
 
-            b.  Add-DnsServerResourceRecord -ZoneName “treyresearch.net”
-                -NS -Name “ns13” -NameServer “ns13.treyresearch.net”
+            b.  Add-DnsServerResourceRecord -ZoneName "treyresearch.net"
+                -NS -Name "ns13" -NameServer "ns13.treyresearch.net"
 
-            c.  Add-DnsServerResourceRecord -Name “treyresearch.net” -NS
-                -NameServer “ns13.treyresearch.net”
+            c.  Add-DnsServerResourceRecord -Name "treyresearch.net" -NS
+                -NameServer "ns13.treyresearch.net"
 
-            d.  Add-DnsServerResourceRecord -ZoneName “treyresearch.net”
-                -NS -Name “ns13.treyresearch.net” -NameServer “.”
+            d.  Add-DnsServerResourceRecord -ZoneName "treyresearch.net"
+                -NS -Name "ns13.treyresearch.net" -NameServer "."
 
         3.  How do you update the SOA resource record?
 
@@ -7364,12 +7364,12 @@ Lesson 1: Implementing Active Directory Federation Services
             b.  Get-ADDCCloningAllowedList -GenerateXML
 
             c.  ***Get-ADComputer trey-dc-03 |
-                Foreach-Object  {Add-ADGroupMember -Identity “Cloneable
-                Domain Controllers” \$\_.SamAccountName }***
+                Foreach-Object  {Add-ADGroupMember -Identity "Cloneable
+                Domain Controllers" \$\_.SamAccountName }***
 
             d.  Get-ADDomainController trey-dc-03 |
-                Foreach-Object  {Add-ADGroupMember -Identity “Cloneable
-                Domain Controllers” \$\_.SamAccountName }
+                Foreach-Object  {Add-ADGroupMember -Identity "Cloneable
+                Domain Controllers" \$\_.SamAccountName }
 
             e.  ***New-ADDCCloneConfigFile***
 
@@ -7422,16 +7422,16 @@ Lesson 1: Implementing Active Directory Federation Services
         2.  What tools or commands do you use to create and mount an
             Active Directory snapshot? (Choose two.)
 
-            a.  ***ntdsutil snapshot “activate instance ntds” create
-                “list all” quit quit***
+            a.  ***ntdsutil snapshot "activate instance ntds" create
+                "list all" quit quit***
 
-            b.  ntdsutil create snapshot “activate instance ntds” “list
-                all” quit quit
+            b.  ntdsutil create snapshot "activate instance ntds" "list
+                all" quit quit
 
-            c.  ***Ntdsutil snapshot “activate instance ntds” “list all”
-                “mount 2” quit quit***
+            c.  ***Ntdsutil snapshot "activate instance ntds" "list all"
+                "mount 2" quit quit***
 
-            d.  Ntdsutil snapshot “activate instance ntds” “mount 2”
+            d.  Ntdsutil snapshot "activate instance ntds" "mount 2"
                 quit quit
 
         3.  You accidentally delete a user account in Active Directory.
@@ -7466,7 +7466,7 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  From an elevated Windows PowerShell prompt, run
                 Set-ADAccountExpiration.
 
-        2.  Some users are reporting that they can’t log on to the
+        2.  Some users are reporting that they can't log on to the
             domain. You suspect a Kerberos issue. What settings can you
             change to temporarily alleviate the problem?
 
@@ -7640,9 +7640,9 @@ Lesson 1: Implementing Active Directory Federation Services
             issues and the best way to correct the problems is to
             restore the default GPO. What command should you use?
 
-            a.  Invoke-GPO | New-GPO -Name “Default Domain Policy”
+            a.  Invoke-GPO | New-GPO -Name "Default Domain Policy"
 
-            b.  New-GPO -Name “Default Domain Policy” -StarterGPOName
+            b.  New-GPO -Name "Default Domain Policy" -StarterGPOName
                 &lt;*startername*&gt;
 
             c.  ***Dcgpofix /ignoreschema /target Domain***
@@ -7652,36 +7652,36 @@ Lesson 1: Implementing Active Directory Federation Services
         2.  You need to restore the Client Backup GPO from the most
             recent backup. What command should you use?
 
-            a.  Restore-GPO -Name “Client Backup GPO”
+            a.  Restore-GPO -Name "Client Backup GPO"
 
             b.  Restore-GPO -All -Path \\\\Server\\BackupGPOs
 
-            c.  ***Import-GPO -BackupGpoName “Client Backup GPO”
-                -TargetName “Restored Client Backup GPO” -Path
+            c.  ***Import-GPO -BackupGpoName "Client Backup GPO"
+                -TargetName "Restored Client Backup GPO" -Path
                 \\\\Server\\BackupGPOs***
 
-            d.  Restore-GPO -Name “Client Backup GPO” -Path
+            d.  Restore-GPO -Name "Client Backup GPO" -Path
                 \\\\Server\\BackupGPOs
 
         3.  You want to copy the settings from the TreyResearch.net
-            “Client Backup GPO” to the “ClientBackupGPO” in the
+            "Client Backup GPO" to the "ClientBackupGPO" in the
             TailspinToys.com domain. What command should you use?
 
-            a.  Use the GPMC’s Restore From Backup command to restore
+            a.  Use the GPMC's Restore From Backup command to restore
                 the GPO in the TailspinToys.com domain, specifying the
                 Migration Table.
 
-            b.  Use the GPMC’s Restore From Backup command to restore
+            b.  Use the GPMC's Restore From Backup command to restore
                 the GPO from the TreyResearch.net domain.
 
-            c.  Use the GPMC’s Copy command to copy the “Client Backup
-                GPO” from the TreyResearch.net domain and then paste the
+            c.  Use the GPMC's Copy command to copy the "Client Backup
+                GPO" from the TreyResearch.net domain and then paste the
                 GPO into the TailspinToys.com domain.
 
-            d.  ***Use the GPMC’s Import Settings command to import the
-                settings from the most recent backup of the “Client
-                Backup GPO” from the TreyResearch.net domain into the
-                “ClientBackupGPO” in the TailspinToys.com domain,
+            d.  ***Use the GPMC's Import Settings command to import the
+                settings from the most recent backup of the "Client
+                Backup GPO" from the TreyResearch.net domain into the
+                "ClientBackupGPO" in the TailspinToys.com domain,
                 specifying the Migration Table.***
 
     4.  Lesson 4 Objective Overview
@@ -8017,8 +8017,8 @@ Lesson 1: Implementing Active Directory Federation Services
             Kerberos as the authentication protocol. You then log on
             locally to Host1 and initiate a live migration of VM1 from
             VHost2 to VHost1. The live migration fails, and you receive
-            an error indicating “No credentials are available in the
-            security package.” You want to perform a live migration
+            an error indicating "No credentials are available in the
+            security package." You want to perform a live migration
             successfully in your test network so that you will know what
             is required to use this feature successfully in production.
             You also want to initiate live migrations when you are not
@@ -8137,7 +8137,7 @@ Lesson 1: Implementing Active Directory Federation Services
             You want to be able to classify data as originating from
             either the New York office or the London office. You create
             a resource property named Country/Region and configure the
-            suggested values “US” and “UK.” You want administrators in
+            suggested values "US" and "UK." You want administrators in
             both the New York and London offices to see the
             Country/Region resource property appear on the
             Classification tab of files and folder properties. What
@@ -8153,7 +8153,7 @@ Lesson 1: Implementing Active Directory Federation Services
             d.  Add the Country/Region property to a resource property
                 list.
 
-            e.  2\. Your organization’s network consists of a single Active Directory
+            e.  2\. Your organization's network consists of a single Active Directory
                 domain. All servers are running Windows Server 2012 R2 and all clients
                 are running Windows 8.1.
 
@@ -8206,11 +8206,11 @@ Lesson 1: Implementing Active Directory Federation Services
                 share permissions to a security group that includes all
                 the members of the corresponding department only.
 
-            c.  On each department’s shared folder, configure a
+            c.  On each department's shared folder, configure a
                 Department classification property value that
                 corresponds to the name of the department.
 
-            d.  On each department’s shared folder, apply a central
+            d.  On each department's shared folder, apply a central
                 access policy that assigns to members of the appropriate
                 department Full Control permissions on files assigned
                 with a matching Department value classification.
